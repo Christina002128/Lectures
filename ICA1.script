@@ -1,0 +1,119 @@
+#!usr/bin/bash
+echo ${count:=0} 
+for fqfile in *fq.gz
+do 
+        fastqc ${fqfile}
+        count=$((count+1))
+	echo processing number ${count} sample file
+done
+
+find *.zip | parallel unzip
+
+#2 fastqc result summary
+echo "sample_file" > fastfilename.txt
+ echo "PASS" > fastfile-pass.txt
+ echo "FAIL" > fastfile_fail.txt
+ echo "WARN" > fastfile-warn.txt
+# which one is fail, and warn
+for fastfile in  *fastqc
+do
+echo ${fastfile} >>fastfilename.txt
+grep -c PASS ${fastfile}/summary.txt >> fastfile-pass.txt
+grep -c FAIL ${fastfile}/summary.txt >> fastfile_fail.txt
+grep -c WARN ${fastfile}/summary.txt >> fastfile-warn.txt
+done
+paste fastfilename.txt fastfile-pass.txt fastfile-warn.txt fastfile_fail.txt > fastfile_result.txt
+
+for fastfile in  *fastqc
+do
+if [grep -c FAIL -eq 0 ]# cat Tco-5053_1_fastqc/summary.txt | test grep -c FAIL == 0
+grep -c FAIL ${fastfile}/summary.txt >> fastfile_fail.txt
+fi
+done
+
+
+#3 align
+bowtie2-build Tco-5053_1.fq bowtietry.txt
+bowtie2 --no-unal -p 100 -x TriTry_index -1 Tco-5053_1.fq -2 Tco-5053_2.fq -S only_1_align.samu
+# -p threshold, -x genome index, -s output sam, --no-unal only align reads are output
+samtools view  -b -S only_1_align.samu > align.bam
+samtools sort align.bam -o align_sort.bam 
+samtools view align_sort.bam | head #see the bam file
+find *fq.gz |parallel gzip -d
+
+for file in *1.fq
+do
+bowtie2 --no-unal -p 100 -x TriTry_index -1 ${file} -2 ${file:0:9}2.fq -S ${file:0:8}.sam
+samtools view -b -S ${file:0:8}.sam > ${file:0:8}.bam
+samtools sort ${file:0:8}.bam -o ${file:0:8}_sort.bam
+done
+ls *sort.bam|wc
+# the number of reads that align to the regions of the genome that code for genes
+#bedtools
+bowtie2 -p 100 -x TriTry_index -1 Tco-5053_1.fq -2 Tco-5053_2.fq -S Tco-5053_alloutput_reads.sam
+samtools view  -b -S Tco-5053_alloutput_reads.sam > Tco-5053_alloutput_reads.bam
+samtools sort Tco-5053_alloutput_reads.bam -o Tco-5053_alloutput_sort.bam 
+samtools view Tco-5053_alloutput_sort.bam | head
+bedtools intersect
+Tco-5053_alloutput_reads.sam
+# for each feature in the “A” file, the number of overlapping features in the “B” file.
+bedtools bamtobed -i Tco-5053_sort.bam > Tco-5053_sort.bed
+bedtools intersect -a TriTrypDB-46_TcongolenseIL3000_2019.bed -b Tco-5053_sort.bed -c |wc -l
+
+
+#4
+for file in *sort.bam
+do
+bedtools bamtobed -i ${file} > ${file:0:13}.bed
+bedtools intersect -a TriTrypDB-46_TcongolenseIL3000_2019.bed -b ${file:0:13}.bed -c > ${file:0:8}_aligned.bed
+done
+# chromosome    chr_start       chr_end     gene_name     gene_description     number_of_aligned_reads
+
+
+#5  the statistical mean (average) of the counts per gene (i.e. expression levels) for each group
+# generate files that only contain lines are in same sample, same time and same treatment
+for sample in WT Clone1 Clone2
+do
+for treat in Uninduced Induced
+do
+for time in {0,24,48}
+do
+grep ${sample} Tco.fqfiles | grep  ${treat} | grep -w ${time} | sort -k3 > ${sample}_${time}_${treat}.txt
+done
+done
+done
+#aligned.bed files are already in order and also in same length, so sum up line by line
+# average for each gene in each catagory
+for sample in WT Clone1 Clone2
+do
+for treat in Uninduced Induced
+do
+for time in {0,24,48}
+do
+#make expression table in that catagory
+count=0
+cut -f 1 ${sample}_${time}_${treat}.txt > catagory_file # contain file_names in that catagory
+cut -f 4,5 Tco-5053_aligned.bed > ${sample}_${time}_${treat}_experssion.txt # columns of gene names, they are the same in all bed files
+while read -r line  # go through each file_name in that catagory
+do 
+let count=count+1 # count how many files in this catagory (how many expression columns)
+cut -f 6 Tco-${line:3:6}_aligned.bed > expression # the column of the expression of this file
+paste ${sample}_${time}_${treat}_experssion.txt expression > pasting_file
+cat pasting_file > ${sample}_${time}_${treat}_experssion.txt # paste gene name and expressions from each file together
+done < catagory_file
+echo ${count} samples in ${sample}_${time}_${treat}_experssion.txt
+# average the expression of each gene in that catagory
+awk -F "\t" 'BEGIN{sum=0;ave=0;}{
+        if('$count'==3)
+        {sum=$3+$4+$5;ave=sum/'$count';print ave}
+        else {if('$count'==4){sum=$3+$4+$5+$6;ave=sum/'$count';print ave}
+        else{print "error::one file have more than 4 expressions !!"}}
+        }' ${sample}_${time}_${treat}_experssion.txt > experssion_average
+cut -f 4,5 Tco-5053_aligned.bed > head_gene
+paste head_gene experssion_average > ${sample}_${time}_${treat}_experssion_average.txt 
+# table: gene_name gene_descriptions expression_levels
+done
+done
+rm -f ${sample}_0_Induced_experssion.txt
+rm -f ${sample}_0_Induced_experssion_average.txt 
+done
