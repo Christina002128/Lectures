@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+dna=open("plain_genomic_seq.txt").read().rstrip()
+exon1=dna[0:63]
+exon2=dna[90:]
+dna_exon=exon1+exon2
+outfile=open("dna_exon.txt","w")
+outfile.write(dna_exon)
+outfile.close()
+AJ223353=open("AJ223353.fasta").read()
+newAJ=AJ223353.split("\n")
+newAJ=newAJ[2:]
+newAJ=''.join(newAJ)
+open("noheadAJ.txt","w").write(newAJ)
