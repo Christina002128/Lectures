@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head xmlns:xi="http://www.w3.org/2001/XInclude"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- meta -->
+    <meta name="ncbigrid" content="isPagable:true, pageSize: 20,isZebra:true" /><meta name="robots" content="index,nofollow,noarchive" />
+<meta name="ncbi_app" content="entrez" /><meta name="ncbi_db" content="gene" /><meta name="ncbi_term" content="aj223353" /><meta name="ncbi_report" content="full_report" /><meta name="ncbi_format" content="html" /><meta name="ncbi_pagesize" content="20" /><meta name="ncbi_sortorder" content="default" /><meta name="ncbi_pageno" content="1" /><meta name="ncbi_resultcount" content="1" /><meta name="ncbi_op" content="search" /><meta name="ncbi_pdid" content="full_report" /><meta name="ncbi_sessionid" content="CE8875D4357BF431_1083SID" /><meta name="ncbi_filter" content="all" /><meta name="ncbi_stat" content="false" /><meta name="ncbi_hitstat" content="false" />
+
+    
+    <!-- title -->
+    <title>H2BC5 H2B clustered histone 5 [Homo sapiens (human)] - Gene - NCBI</title>
+    
+    <!-- Common JS and CSS -->
+    
+		<script type="text/javascript">
+		    var ncbi_startTime = new Date();
+		</script>
+		<style>.async-hide { opacity: 0 !important} </style><script type="text/javascript" src="/core/assets/kis/dist/kis_ga_gene.js"></script><script type="text/javascript" src="https://static.pubmed.gov/core/jig/1.15.3/js/jig.min.js"></script>                    
+                    
+                        <script type="text/javascript" src="/projects/sviewer/js/sviewer.js" id="autoload"></script>
+                    
+                  
+    
+    <link xmlns="http://www.w3.org/1999/xhtml" type="text/css" rel="stylesheet" href="//static.pubmed.gov/portal/portal3rc.fcgi/4208398/css/4207974/4206132.css" xml:base="http://127.0.0.1/sites/static/header_footer/" />    
+<link rel="shortcut icon" href="//www.ncbi.nlm.nih.gov/favicon.ico" /><meta name="ncbi_phid" content="CE8875D4357AC47100000000043B017B.m_30" /><script type="text/javascript"><!--
+var ScriptPath = '/portal/';
+var objHierarchy = {"name":"EntrezSystem2","type":"Layout","realname":"EntrezSystem2",
+"children":[{"name":"EntrezSystem2.PEntrez","type":"Cluster","realname":"EntrezSystem2.PEntrez",
+"children":[{"name":"EntrezSystem2.PEntrez.DbConnector","type":"Portlet","realname":"EntrezSystem2.PEntrez.PEntrez.DbConnector","shortname":"DbConnector"},
+{"name":"EntrezSystem2.PEntrez.ParamContainer","type":"Portlet","realname":"EntrezSystem2.PEntrez.PEntrez.ParamContainer","shortname":"ParamContainer"},
+{"name":"EntrezSystem2.PEntrez.MyNcbi","type":"Portlet","realname":"EntrezSystem2.PEntrez.PEntrez.MyNcbi","shortname":"MyNcbi"},
+{"name":"EntrezSystem2.PEntrez.UserPreferenceUrlParamContainer","type":"Portlet","realname":"EntrezSystem2.PEntrez.PEntrez.UserPreferenceUrlParamContainer","shortname":"UserPreferenceUrlParamContainer"},
+{"name":"EntrezSystem2.PEntrez.GridProperty","type":"Portlet","realname":"EntrezSystem2.PEntrez.PEntrez.GridProperty","shortname":"GridProperty"},
+{"name":"EntrezSystem2.PEntrez.Gene","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.NoPortlet","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NoPortlet","shortname":"NoPortlet"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_PageController","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_PageController","shortname":"Gene_PageController"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_SearchBar","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_SearchBar","shortname":"Gene_SearchBar"},
+{"name":"EntrezSystem2.PEntrez.Gene.Entrez_BotRequest","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.Entrez_BotRequest","shortname":"Entrez_BotRequest"},
+{"name":"EntrezSystem2.PEntrez.Gene.Entrez_LimitsTab","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.Entrez_LimitsTab","shortname":"Entrez_LimitsTab"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_Facets","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_Facets","shortname":"Gene_Facets"},
+{"name":"EntrezSystem2.PEntrez.Gene.Entrez_Clipboard","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.Entrez_Clipboard","shortname":"Entrez_Clipboard"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_StaticParts","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_StaticParts","shortname":"Gene_StaticParts"},
+{"name":"EntrezSystem2.PEntrez.Gene.Entrez_Messages","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.Entrez_Messages","shortname":"Entrez_Messages"},
+{"name":"EntrezSystem2.PEntrez.Gene.NcbiJSCheck","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NcbiJSCheck","shortname":"NcbiJSCheck"},
+{"name":"EntrezSystem2.PEntrez.Gene.NCBIFooter_dynamic","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NCBIFooter_dynamic",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.NCBIFooter_dynamic.Footer_ExtraData","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NCBIFooter_dynamic.Footer_ExtraData","shortname":"Footer_ExtraData"},
+{"name":"EntrezSystem2.PEntrez.Gene.NCBIFooter_dynamic.NCBIFooter_dynamic","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NCBIFooter_dynamic.NCBIFooter_dynamic",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.NCBIFooter_dynamic.NCBIFooter_dynamic.NCBIBreadcrumbs","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NCBIFooter_dynamic.NCBIFooter_dynamic.NCBIBreadcrumbs","shortname":"NCBIBreadcrumbs"},
+{"name":"EntrezSystem2.PEntrez.Gene.NCBIFooter_dynamic.NCBIFooter_dynamic.NCBIHelpDesk","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NCBIFooter_dynamic.NCBIFooter_dynamic.NCBIHelpDesk","shortname":"NCBIHelpDesk"},
+{"name":"EntrezSystem2.PEntrez.Gene.NCBIFooter_dynamic.NCBIFooter_dynamic.NCBIApplog_NoScript_Ping","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Entrez_Database.NCBIFooter_dynamic.NCBIFooter_dynamic.NCBIApplog_NoScript_Ping","shortname":"NCBIApplog_NoScript_Ping"}]}]},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_SetDCMS","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_SetDCMS","shortname":"Gene_SetDCMS"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_SingleItemSupl","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.Entrez_SingleItemSupl",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_SingleItemSupl.DiscoveryDbLinks","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.Entrez_SingleItemSupl.DiscoveryDbLinks","shortname":"DiscoveryDbLinks"}]},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.blankToolPanel","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.blankToolPanel","shortname":"blankToolPanel"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_ResultsController","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_ResultsController","shortname":"Gene_ResultsController"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_Filters","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.Entrez_Filters","shortname":"Entrez_Filters"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_Pager","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.Entrez_Pager","shortname":"Entrez_Pager"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar","shortname":"Gene_DisplayBar"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.HelpFormAttributes","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.HelpFormAttributes","shortname":"HelpFormAttributes"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_Collections","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.Entrez_Collections","shortname":"Entrez_Collections"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.GeneSpellCheck","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.GeneSpellCheck","shortname":"GeneSpellCheck"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.SearchEngineReferralCheck","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.SearchEngineReferralCheck","shortname":"SearchEngineReferralCheck"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.MultiSensorPortlet","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.MultiSensorPortlet","shortname":"MultiSensorPortlet"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.WrongDbSensor","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.WrongDbSensor","shortname":"WrongDbSensor"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.KnowledgePanel","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.KnowledgePanel","shortname":"KnowledgePanel"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.HistoryDisplay","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.HistoryDisplay","shortname":"HistoryDisplay"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Discovery_SearchDetails","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Entrez_ResultsPanel.Discovery_SearchDetails","shortname":"Discovery_SearchDetails"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Taxport","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Taxport","shortname":"Taxport"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_KISSensor","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_KISSensor","shortname":"Gene_KISSensor"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.GeneSensor","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.GeneSensor","shortname":"GeneSensor"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.GeneDataFetcher","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.GeneDataFetcher","shortname":"GeneDataFetcher"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_RelatedInformation","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_RelatedInformation","shortname":"Gene_RelatedInformation"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.GeneRightColMenuLinksP","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.GeneRightColMenuLinksP","shortname":"GeneRightColMenuLinksP"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_TableOfContents","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_TableOfContents","shortname":"Gene_TableOfContents"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_LinksTwo","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_LinksTwo","shortname":"Gene_LinksTwo"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_GeneralInfo","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_GeneralInfo","shortname":"Gene_GeneralInfo"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_RelatedSites","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_RelatedSites","shortname":"Gene_RelatedSites"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_Feedback","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_Feedback","shortname":"Gene_Feedback"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_Subscription","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_Subscription","shortname":"Gene_Subscription"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_GenomeBrowsers","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RightColumn.Gene_GenomeBrowsers","shortname":"Gene_GenomeBrowsers"}]},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoMarkers","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoMarkers","shortname":"Gene_InfoMarkers"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoGroups","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoGroups","shortname":"Gene_InfoGroups"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoComments","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoComments","shortname":"Gene_InfoComments"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoHomology","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoHomology","shortname":"Gene_InfoHomology"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_Ontology","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_Ontology","shortname":"Gene_Ontology"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoRelationship","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoRelationship","shortname":"Gene_InfoRelationship"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoHeader","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPlusHomology.Gene_InfoHeader","shortname":"Gene_InfoHeader"}]},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPathway","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPathway","shortname":"Gene_InfoPathway"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.GeneHistoryReporter","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.GeneHistoryReporter","shortname":"GeneHistoryReporter"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_PortletHeader","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_PortletHeader","shortname":"Gene_PortletHeader"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Summary","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Summary","shortname":"Gene_Summary"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP","shortname":"Gene_GenomicProductsP"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GeneExpressionSection","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GeneExpressionSection","shortname":"Gene_GeneExpressionSection"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicContextP","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicContextP","shortname":"Gene_GenomicContextP"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography.Gene_Biblio","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography.Gene_Biblio","shortname":"Gene_Biblio"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography.Gene_RifP","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography.Gene_RifP","shortname":"Gene_RifP"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography.Gene_PubmedRelatedRecords","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Bibliography.Gene_PubmedRelatedRecords","shortname":"Gene_PubmedRelatedRecords"}]},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPhenotype","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_InfoPhenotype","shortname":"Gene_InfoPhenotype"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Variation","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Variation","shortname":"Gene_Variation"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_HivInteraction","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_HivInteraction","shortname":"Gene_HivInteraction"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Interactions","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Interactions","shortname":"Gene_Interactions"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_ProtInfo","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_ProtInfo","shortname":"Gene_ProtInfo"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Refseq","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_Refseq","shortname":"Gene_Refseq"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RelatedSeq","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_RelatedSeq","shortname":"Gene_RelatedSeq"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout","type":"Cluster","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout",
+"children":[{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout.GeneLinkoutP","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout.GeneLinkoutP","shortname":"GeneLinkoutP"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout.GeneAdditionalLinksP","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout.GeneAdditionalLinksP","shortname":"GeneAdditionalLinksP"},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout.GeneAdditionalLinksSectionTitle","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_AddlinksWithLinkout.GeneAdditionalLinksSectionTitle","shortname":"GeneAdditionalLinksSectionTitle"}]},
+{"name":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.GeneFullReportLogger","type":"Portlet","realname":"EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.GeneFullReportLogger","shortname":"GeneFullReportLogger"}]}]}]}]}]};
+--></script>
+<meta name='referrer' content='origin-when-cross-origin'/><link type="text/css" rel="stylesheet" href="//static.pubmed.gov/portal/portal3rc.fcgi/4210901/css/3808861/3917732/3974050/3751656/3395415/4010253/4117680/14534/4062871/4195405/4077699/4186458/4121862/4075711/3858295/12930/4033350/4128070/4197050/4201891/448789/3915402/3921424/3887816.css" /><link type="text/css" rel="stylesheet" href="//static.pubmed.gov/portal/portal3rc.fcgi/4210901/css/3501913/3848168.css" media="print" /><script type="text/javascript">
+
+var ObjectLinks=[{i:0, ename: "p$ExL", esid:"*", sname: "p$ExL", ssid:"*", dname:"p$el", dsid:"0",m:"CopyValue",p:[],f: function(src, dst) {fn_CopyValue(src, dst);}}]
+
+
+var ActiveNames = {"p$ExL":1, "EntrezSystem2.PEntrez.DbConnector.Cmd":0, "EntrezSystem2.PEntrez.DbConnector.Db":0, "EntrezSystem2.PEntrez.DbConnector.IdsFromResult":0, "EntrezSystem2.PEntrez.DbConnector.LastDb":0, "EntrezSystem2.PEntrez.DbConnector.LastIdsFromResult":0, "EntrezSystem2.PEntrez.DbConnector.LastQueryKey":0, "EntrezSystem2.PEntrez.DbConnector.LastTabCmd":0, "EntrezSystem2.PEntrez.DbConnector.LinkName":0, "EntrezSystem2.PEntrez.DbConnector.LinkReadableName":0, "EntrezSystem2.PEntrez.DbConnector.LinkSrcDb":0, "EntrezSystem2.PEntrez.DbConnector.QueryKey":0, "EntrezSystem2.PEntrez.DbConnector.TabCmd":0, "EntrezSystem2.PEntrez.DbConnector.Term":0, "EntrezSystem2.PEntrez.Gene.Gene_Facets.BMFacets":0, "EntrezSystem2.PEntrez.Gene.Gene_Facets.FacetSubmitted":0, "EntrezSystem2.PEntrez.Gene.Gene_Facets.FacetsUrlFrag":0, "EntrezSystem2.PEntrez.Gene.Gene_PageController.PreviousPageName":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Display":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.FFormat":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.FileFormat":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.FileSort":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Format":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastFormat":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastPageSize":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastPresentation":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastSort":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PageSize":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Presentation":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PrevPageSize":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PrevPresentation":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PrevSort":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendTo":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendToSubmit":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SetDisplay":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Sort":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.accessionList":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.nucleotideLink_NC_000006.11":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.nucleotideLink_NC_000006.12":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.nucleotideLink_NC_060930.1":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.relString_NC_000006.11":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.relString_NC_000006.12":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.relString_NC_060930.1":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_ResultsController.ResultCount":0, "EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_ResultsController.RunLastQuery":0};
+</script></head>
+    <body>
+    	<div class="grid no_max_width">
+			<div class="col twelve_col nomargin shadow">
+				<form enctype="application/x-www-form-urlencoded" name="EntrezForm" method="post" onsubmit="return false;" action="/gene" id="EntrezForm">
+					<div xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- no javascript message -->
+    <noscript>
+	<p class="nojs">
+	<strong>Warning:</strong>
+	The NCBI web site requires JavaScript to function. 
+	<a href="/guide/browsers/#enablejs" title="Learn how to enable JavaScript" target="_blank">more...</a>
+	</p>
+	</noscript>
+    
+    <div xmlns="http://www.w3.org/1999/xhtml" id="universal_header" xml:base="http://127.0.0.1/sites/static/header_footer/">
+	<section class="usa-banner">
+		<div class="usa-accordion">
+			<header class="usa-banner-header">
+				<div class="usa-grid usa-banner-inner">
+					<img src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png" alt="U.S. flag" />
+					<p>An official website of the United States government</p>
+					<button class="non-usa-accordion-button usa-banner-button" aria-expanded="false" aria-controls="gov-banner-top" type="button">
+						<span class="usa-banner-button-text">Here's how you know</span>
+					</button>
+				</div>
+			</header>
+			<div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner-top" aria-hidden="true">
+				<div class="usa-banner-guidance-gov usa-width-one-half">
+					<img class="usa-banner-icon usa-media_block-img" src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg" alt="Dot gov" />
+					<div class="usa-media_block-body">
+						<p>
+							<strong>The .gov means it's official.</strong>
+							<br />
+							Federal government websites often end in .gov or .mil. Before
+							sharing sensitive information, make sure you're on a federal
+							government site.
+						</p>
+					</div>
+				</div>
+				<div class="usa-banner-guidance-ssl usa-width-one-half">
+					<img class="usa-banner-icon usa-media_block-img" src="https://www.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg" alt="Https" />
+					<div class="usa-media_block-body">
+						<p>
+							<strong>The site is secure.</strong>
+							<br />
+							The <strong>https://</strong> ensures that you are connecting to the
+							official website and that any information you provide is encrypted
+							and transmitted securely.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="usa-overlay"></div>
+	<header class="ncbi-header" role="banner" data-section="Header">
+		
+		<div class="usa-grid">
+			<div class="usa-width-one-whole">
+				
+				<div class="ncbi-header__logo">
+					<a href="/" class="logo" aria-label="NCBI Logo" data-ga-action="click_image" data-ga-label="NIH NLM Logo">
+						<img src="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg" alt="NIH NLM Logo" />
+					</a>
+				</div>
+				
+				<div class="ncbi-header__account">
+					<a id="account_login" href="https://account.ncbi.nlm.nih.gov" class="usa-button header-button" style="display:none" data-ga-action="open_menu" data-ga-label="account_menu">Log in</a>
+					<button id="account_info" class="header-button" style="display:none" aria-controls="account_popup" type="button">
+						<span class="fa fa-user" aria-hidden="true">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20px" height="20px">
+								<g style="fill: #fff">
+									<ellipse cx="12" cy="8" rx="5" ry="6"></ellipse>
+									<path d="M21.8,19.1c-0.9-1.8-2.6-3.3-4.8-4.2c-0.6-0.2-1.3-0.2-1.8,0.1c-1,0.6-2,0.9-3.2,0.9s-2.2-0.3-3.2-0.9    C8.3,14.8,7.6,14.7,7,15c-2.2,0.9-3.9,2.4-4.8,4.2C1.5,20.5,2.6,22,4.1,22h15.8C21.4,22,22.5,20.5,21.8,19.1z"></path>
+								</g>
+							</svg>
+						</span>
+						<span class="username desktop-only" aria-hidden="true" id="uname_short"></span>
+						<span class="sr-only">Show account info</span>
+					</button>
+				</div>
+				
+				<div class="ncbi-popup-anchor">
+					<div class="ncbi-popup account-popup" id="account_popup" aria-hidden="true">
+						<div class="ncbi-popup-head">
+							<button class="ncbi-close-button" data-ga-action="close_menu" data-ga-label="account_menu" type="button">
+								<span class="fa fa-times">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px">
+										<path d="M38 12.83l-2.83-2.83-11.17 11.17-11.17-11.17-2.83 2.83 11.17 11.17-11.17 11.17 2.83 2.83 11.17-11.17 11.17 11.17 2.83-2.83-11.17-11.17z"></path>
+									</svg>
+								</span>
+								<span class="usa-sr-only">Close</span></button>
+							<h4>Account</h4>
+						</div>
+						<div class="account-user-info">
+							Logged in as:<br />
+							<b><span class="username" id="uname_long">username</span></b>
+						</div>
+						<div class="account-links">
+							<ul class="usa-unstyled-list">
+								<li><a id="account_myncbi" href="/myncbi/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_myncbi">Dashboard</a></li>
+								<li><a id="account_pubs" href="/myncbi/collections/bibliography/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_pubs">Publications</a></li>
+								<li><a id="account_settings" href="/account/settings/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_settings">Account settings</a></li>
+								<li><a id="account_logout" href="/account/signout/" class="set-base-url" data-ga-action="click_menu_item" data-ga-label="account_logout">Log out</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</header>
+	<div role="navigation" aria-label="access keys">
+		<a id="nws_header_accesskey_0" href="https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys" class="usa-sr-only" accesskey="0" tabindex="-1">Access keys</a>
+		<a id="nws_header_accesskey_1" href="https://www.ncbi.nlm.nih.gov" class="usa-sr-only" accesskey="1" tabindex="-1">NCBI Homepage</a>
+		<a id="nws_header_accesskey_2" href="/myncbi/" class="set-base-url usa-sr-only" accesskey="2" tabindex="-1">MyNCBI Homepage</a>
+		<a id="nws_header_accesskey_3" href="#maincontent" class="usa-sr-only" accesskey="3" tabindex="-1">Main Content</a>
+		<a id="nws_header_accesskey_4" href="#" class="usa-sr-only" accesskey="4" tabindex="-1">Main Navigation</a>
+	</div>
+	<section data-section="Alerts">
+		<div class="ncbi-alerts-placeholder"></div>
+	</section>    
+</div>
+    
+    <div class="header">
+    <!-- logo -->
+    <div class="res_logo" id="top">
+	<h1 class="res_name"><a href="/gene/">Gene</a></h1>
+	<h2 class="res_tagline">Genes and mapped phenotypes</h2>
+</div>
+    <!-- SearchBar -->
+    <div class="search"><div class="search_form"><label for="database" class="offscreen_noflow">Search database</label><select id="database"><optgroup label="Recent"><option value="gene" selected="selected" class="last" data-ac_dict="gene">Gene</option></optgroup><optgroup label="All"><option value="gquery">All Databases</option><option value="assembly" data-ac_dict="assembly">Assembly</option><option value="biocollections">Biocollections</option><option value="bioproject">BioProject</option><option value="biosample">BioSample</option><option value="books">Books</option><option value="clinvar">ClinVar</option><option value="cdd">Conserved Domains</option><option value="gap">dbGaP</option><option value="dbvar">dbVar</option><option value="gene" data-ac_dict="gene">Gene</option><option value="genome" data-ac_dict="genome">Genome</option><option value="gds">GEO DataSets</option><option value="geoprofiles">GEO Profiles</option><option value="gtr">GTR</option><option value="homologene">HomoloGene</option><option value="ipg">Identical Protein Groups</option><option value="medgen">MedGen</option><option value="mesh">MeSH</option><option value="nlmcatalog">NLM Catalog</option><option value="nuccore" data-ac_dict="nuccore">Nucleotide</option><option value="omim">OMIM</option><option value="pmc">PMC</option><option value="popset">PopSet</option><option value="protein" data-ac_dict="protein">Protein</option><option value="proteinclusters">Protein Clusters</option><option value="protfam">Protein Family Models</option><option value="pcassay">PubChem BioAssay</option><option value="pccompound">PubChem Compound</option><option value="pcsubstance">PubChem Substance</option><option value="pubmed">PubMed</option><option value="snp">SNP</option><option value="sra">SRA</option><option value="structure">Structure</option><option value="taxonomy">Taxonomy</option><option value="toolkit">ToolKit</option><option value="toolkitall">ToolKitAll</option><option value="toolkitbookgh">ToolKitBookgh</option></optgroup></select><div class="nowrap"><label for="term" class="offscreen_noflow" accesskey="/">Search term</label><div class="nowrap"><input type="text" name="term" id="term" title="Search Gene. Use up and down arrows to choose an item from the autocomplete." value="AJ223353" class="jig-ncbiclearbutton jig-ncbiautocomplete" data-jigconfig="dictionary:'gene',disableUrl:'NcbiSearchBarAutoComplCtrl'" autocomplete="off" data-sbconfig="ds:'no',pjs:'yes',afs:'yes'" /></div><button id="search" type="submit" class="button_search nowrap" cmd="go">Search</button></div></div><ul class="searchlinks inline_list"><li id="rss_dropdown"><a class="jig-ncbipopper" href="#rss_menu" data-jig="ncbipopper" data-target-position="bottom center" data-source-position="top center" data-has-arrow="false" data-open-method="click" data-close-method="click" data-is-source-element-close-click="false" data-group-name="entrez_pg">
+                Create RSS</a><div id="rss_menu" class="rss_menu tabPopper" style="display:none;"><fieldset><legend>RSS Settings</legend><ul><li><span>Search: </span>AJ223353</li><li><label for="rss_results">Number of items displayed:</label><select id="rss_results"><option>5</option><option>10</option><option selected="selected">15</option><option>20</option><option>50</option><option>100</option></select></li><li><label for="rss_name">Feed name:</label><input type="text" id="rss_name" value="AJ223353" /></li></ul><button class="button_apply" id="rss_createfeed" data-qk="1" data-db="gene" data-hid="16w5AzA3DSYCYPHTZX1dr4VWgklXBWUy2NzYobZIw1">Create RSS</button></fieldset></div></li><li><a name="SaveSearch" title="Click to create an email alert for this search" href="/sites/myncbi/searches/save?db=gene&amp;qk=1" id="SaveSearch">Save search</a></li><li><a href="/gene/advanced">Advanced</a></li><li class="help"><a id="help" class="jig-ncbihelpwindow" target="ncbihelp" name="help" href="/books/NBK3841/">Help</a></li></ul></div>
+</div>   
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_PageController.PreviousPageName" sid="1" type="hidden" value="results" />
+    <div id="faceted_search" class="facet_hide">
+    <h2 class="offscreen_noflow">Result Filters</h2>
+    <div class="facet_cont" data-db="gene" data-default_grps="fg_gene-sources,fg_categories,fg_sequence-content,fg_status" data-sd="db:'gene',op:'search',term:'AJ223353',qk:'1',linkname:'',idsfromresult:'',extra:''"><ul class="facet" data-filter_id="gene-sources" id="_gene-sources"><li class="filter_grp "><div class="clearfix"><h3>Gene sources</h3><a href="#" data-value_id="" class="clear clear_hide">Clear</a></div><ul><li class="fil_val"><a href="#" data-value_id="genomic">Genomic</a></li></ul></li></ul><ul class="facet" data-filter_id="categories" id="_categories"><li class="filter_grp "><div class="clearfix"><h3>Categories</h3><a href="#" data-value_id="" class="clear clear_hide">Clear</a></div><ul><li class="fil_val"><a href="#" data-value_id="alt-splicing">Alternatively spliced</a></li><li class="fil_val"><a href="#" data-value_id="annotated-genes">Annotated genes</a></li><li class="fil_val"><a href="#" data-value_id="gene-type-protein-coding">Protein-coding</a></li></ul></li></ul><ul class="facet" data-filter_id="sequence-content" id="_sequence-content"><li class="filter_grp "><div class="clearfix"><h3>Sequence content</h3><a href="#" data-value_id="" class="clear clear_hide">Clear</a></div><ul><li class="fil_val"><a href="#" data-value_id="seq-ccds">CCDS</a></li><li class="fil_val"><a href="#" data-value_id="seq-ensembl">Ensembl</a></li><li class="fil_val"><a href="#" data-value_id="refseq">RefSeq</a></li></ul></li></ul><ul class="facet" data-filter_id="status" id="_status"><li class="filter_grp "><div class="clearfix"><h3>Status</h3><a href="#" data-value_id="" class="clear clear_show">Clear</a></div><ul><li class="fil_val selected"><a href="#" data-value_id="current-only">Current</a><span class="fcount">(1)</span></li></ul></li></ul><div id="chr-location-facet-wrapper" data-bid="MCID_6357bf433998d50ce7581ede" data-hid="MCID_6357bf433998d50ce7581ee4" data-qky="1" class="disabled" style="display:none"><ul class="facet" data-filter_id="chromosomal-region" id="_chromosomal-region" data-of="yes"><li class="filter_grp of_grp"><div class="clearfix"><h3>Chromosome locations</h3><a href="#" data-value_id="" class="clear clear_hide">Clear</a></div><ul><a id="facet_ofchromosomal-region" href="#facet_of_divchromosomal-region" class="jig-ncbipopper" data-jigconfig="triggerPosition: 'middle right',                 destPosition: 'middle left', hasArrow: true, arrowDirection: 'left', closeEvent :                 'click', openEvent: 'click', adjustFit: 'autoAdjust', openAnimation: 'none',                 closeAnimation: 'none',  addCloseButton:true,  width: '375px'" data-value_id="fetch_more">more...</a><div id="facet_of_divchromosomal-region" style="display:none;" class="of_popup"><h4>Chromosome locations</h4><label for="organism-filter" style="width:100%;margin-bottom:.2em;" class="">Select an organism by typing or scrolling</label><input type="text" placeholder="Enter text to narrow down the list" id="organism-filter" style="width:98%;" autocomplete="off" /><br /><div id="chr-region-tax-list"><select id="of_chromosomal-region" size="9" class="chr-region-tax-list" style="width:100%;"></select></div><div id="chr-location-info-ctrl" data-disabled="disabled"><div class="chr-field"><label for="chr-name">Chromosome</label><br /><select id="chr-name" class="chr-field" disabled="disabled"></select></div><div class="chr-field"><label for="chr-from">From</label><br /><input type="text" name="chr-from" id="chr-from" disabled="disabled" class="chr-field" /></div><div class="chr-field"><label for="chr-to">To</label><br /><input type="text" name="chr-to" id="chr-to" disabled="disabled" class="chr-field" /></div></div><div class="actions clearfix"><button class="jig-ncbibutton of_add apply-chr" data-jigconfig="'color': 'ui-ncbibutton-blue'">Apply</button></div></div></ul></li></ul></div><ul class="facet facet_reset"><li><a href="#" data-value_id="reset">Clear all</a></li></ul><ul class="facet_tools"><li><a id="more_filter_groups_link" href="#more_filter_groups" class="jig-ncbipopper" data-jigconfig="triggerPosition: 'middle right', destPosition: 'top left', hasArrow: true,                  arrowDirection: 'left', closeEvent : 'click', openEvent: 'click', adjustFit: 'autoAdjust', openAnimation: 'none', closeAnimation: 'none', addCloseButton:true,  width: '180px'">
+                Show additional filters</a></li><div id="more_filter_groups" style="display:none;" class="facets_dialog"><button class="ui-ncbipopper-close-button ui-ncbipopper-close-button-generated ui-state-default ui-corner-all ui-button-text-only ui-ncbibutton ui-ncbibutton-blue" generated="true" role="button" aria-disabled="false"><span class="ui-button-text">x</span></button><h4>Additional filters</h4><ul class="filter_groups_more facet"><li><input type="checkbox" id="fg_gene-sources" /><label for="fg_gene-sources">Gene sources</label></li><li><input type="checkbox" id="fg_categories" /><label for="fg_categories">Categories</label></li><li><input type="checkbox" id="fg_sequence-content" /><label for="fg_sequence-content">Sequence content</label></li><li><input type="checkbox" id="fg_status" /><label for="fg_status">Status</label></li><li><input type="checkbox" id="fg_chromosomal-region" /><label for="fg_chromosomal-region">Chromosome locations</label></li><li><input id="fg_field_search" type="checkbox" /><label for="fg_field_search">Search fields</label></li></ul><div class="actions clearfix"><button class="filter_groups_more_apply jig-ncbibutton primary-action" id="filter_groups_apply" data-jigconfig="'color': 'ui-ncbibutton-blue'">Show</button></div></div></ul><input name="EntrezSystem2.PEntrez.Gene.Gene_Facets.FacetsUrlFrag" sid="1" type="hidden" value="filters=current-only" /><input name="EntrezSystem2.PEntrez.Gene.Gene_Facets.FacetSubmitted" sid="1" type="hidden" value="false" /><input name="EntrezSystem2.PEntrez.Gene.Gene_Facets.BMFacets" sid="1" type="hidden" value="" /></div>
+</div>
+<div id="maincontent" class="col nine_col">
+    <div class="content" id="padded_content">
+        
+        <!-- show or hide sidebar -->
+        <div class="sidecontentpullout_local" id="sidecontent_1_pullout" rel="1" style="position: fixed !important; top: 118px; z-index: 1000; cursor: pointer; right: 0px; width: 12px;display:none;">
+            <span style="display: block; text-align: center;">S</span>
+            <span style="display: block; text-align: center;">I</span>
+            <span style="display: block; text-align: center;">D</span>
+            <span style="display: block; text-align: center;">E</span>
+            <span style="display: block; text-align: center;">B</span>
+            <span style="display: block; text-align: center;">A</span>
+            <span style="display: block; text-align: center;">R</span>
+        </div>
+        <!-- end show or hide sidebar -->
+        
+        <div class="results_settings one_setting"><ul class="inline_list left display_settings"><li><a name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Display" sid="0" href="#" class="jig-ncbipopper" data-jigconfig="triggerPosition : 'bottom center',destPosition : 'top center',destSelector : '#display_settings_menu_report',                     hasArrow : false,openEvent : 'click',closeEvent : 'click',isTriggerElementCloseClick: false,addCloseButton : false,                      groupName: 'entrez_pg'" id="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Display">Full Report<span href="#" class="tgt_dark"></span></a></li></ul><div id="display_settings_menu_report" class="disp_settings tabPopper"><fieldset class="format"><legend>Format</legend><ul class="column_list"><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="1" value="full_report" format="" id="full_report" checked="true" /><label for="full_report">Full Report</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="2" value="full_report" format="text" id="full_reporttext" /><label for="full_reporttext">Full Report (text)</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="3" value="expression" format="" id="expression" /><label for="expression">Expression</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="4" value="gene_table" format="" id="gene_table" /><label for="gene_table">Gene Table</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="5" value="gene_table" format="text" id="gene_tabletext" /><label for="gene_tabletext">Gene Table (text)</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="6" value="generif" format="" id="generif" /><label for="generif">GeneRIF</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="7" value="docsum" format="" id="docsum" /><label for="docsum">Summary</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="8" value="docsum" format="text" id="docsumtext" /><label for="docsumtext">Summary (text)</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="9" value="tabular" format="" id="tabular" /><label for="tabular">Tabular</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="10" value="tabular" format="text" id="tabulartext" /><label for="tabulartext">Tabular (text)</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="11" value="asn1" format="text" id="asn1text" /><label for="asn1text">ASN.1</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="12" value="xml" format="text" id="xmltext" /><label for="xmltext">XML</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.sPresentation" sid="13" value="uilist" format="text" id="uilisttext" /><label for="uilisttext">UI List</label></li></ul></fieldset></div><button name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SetDisplay" sid="1" class="button_apply ncbipopper-close-button" style="display:none">Apply</button><h4 class="content_header send_to align_right jig-ncbipopper" id="sendto" data-jigconfig="triggerPosition:'bottom center', destPosition : 'top center',destSelector : '#send_to_menu', hasArrow : false,                 openEvent : 'click',closeEvent : 'click', isTriggerElementCloseClick: false, addCloseButton:true, groupName: 'entrez_pg', adjustFit:'none'"><a href="#" sourceContent="send_to_menu" class="tgt_dark">Send to:</a><script type="text/javascript">
+                        jQuery(document).ready( function () {
+                            jQuery("#send_to_menu input[type='radio']").click( function () {
+                                var selectedValue = jQuery(this).val().toLowerCase();
+                                var selectedDiv = jQuery("#send_to_menu div." + selectedValue);
+                                
+                                if(selectedDiv.is(":hidden")){ 
+                                jQuery("#send_to_menu div.submenu:visible").slideUp();
+                                selectedDiv.slideDown();
+                                }
+                            });
+                        
+                        });
+                        
+                        jQuery("#sendto").bind("ncbipopperclose", function(){
+                            jQuery("#send_to_menu div.submenu:visible").css("display","none");
+                            jQuery("#send_to_menu input[type='radio']:checked").attr("checked",false);
+                        });
+                        
+                    </script></h4><div id="send_to_menu" class="tabPopper send_to"><fieldset><legend>Choose Destination</legend><ul class="column_list"><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendTo" sid="1" value="File" id="dest_File" /><label for="dest_File">File</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendTo" sid="2" value="AddToClipboard" id="dest_AddToClipboard" /><label for="dest_AddToClipboard">Clipboard</label></li><li><input type="radio" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendTo" sid="3" value="AddToCollections" id="dest_AddToCollections" /><label for="dest_AddToCollections">Collections</label></li></ul></fieldset><div class="submenu file" id="submenu_File" style="display: none;"><p id="submenu_File_hint" class="hidden"></p><ul><li><label for="file_format">Format</label><select id="file_format" name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.FFormat" sid="1"><option value="full_report" format="text" selected="selected">Full Report (text)</option><option value="gene_table" format="text">Gene Table (text)</option><option value="docsum" format="text">Summary (text)</option><option value="tabular" format="text">Tabular (text)</option><option value="asn1" format="text">ASN.1</option><option value="xml" format="text">XML</option><option value="uilist" format="text">UI List</option></select></li></ul><button name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendToSubmit" sid="1" class="button_apply file ncbipopper-close-button" type="submit" cmd="File">Create File</button></div><div class="submenu addtoclipboard" id="submenu_AddToClipboard" style="display: none;"><p id="submenu_AddToClipboard_hint" class="hidden"></p><button name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendToSubmit" sid="2" class="button_apply clipboard ncbipopper-close-button" type="submit" cmd="AddToClipboard">Add to Clipboard</button></div><div class="submenu addtocollections" id="submenu_AddToCollections" style="display: none;"><p id="submenu_AddToCollections_hint" class="hidden"></p><button name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.SendToSubmit" sid="3" class="button_apply collections ncbipopper-close-button" type="submit" cmd="AddToCollections">Add to Collections</button></div></div><div><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.FileFormat" sid="1" type="hidden" value="full_report" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastPresentation" sid="1" type="hidden" value="full_report" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Presentation" sid="1" type="hidden" value="full_report" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PageSize" sid="1" type="hidden" value="20" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastPageSize" sid="1" type="hidden" value="20" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Sort" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastSort" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.FileSort" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.Format" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.LastFormat" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PrevPageSize" sid="1" type="hidden" value="20" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PrevPresentation" sid="1" type="hidden" value="full_report" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_DisplayBar.PrevSort" sid="1" type="hidden" value="" /><input type="hidden" id="coll_startindex" name="CollectionStartIndex" value="1" /></div></div>
+        <div>
+    
+    
+    
+    
+    
+</div>
+        <div class="">
+            <div><span id="result_sel" class="nowrap"></span><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_ResultsController.ResultCount" sid="1" type="hidden" id="resultcount" value="1" /><input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_ResultsController.RunLastQuery" sid="1" type="hidden" /></div>
+            
+        </div>       
+        <div id="messagearea" class="empty">
+            
+            <div><ul class="messages" id="FacetsMsg"></ul><div><ul class="messages gene-fc-message"><li class="info icon"><span class="icon">Showing Current items.</span></li></ul></div></div>
+            
+            
+        </div>
+        <div class="rprt full-rprt">
+    <div>
+  <div class="rprt-header">
+    <input type="hidden" id="gene-tax-id" value="9606" />
+    <h1 class="title" id="gene-name"><span class="gn" style="padding-right:.5em;">H2BC5</span> H2B clustered histone 5 [ <em class="tax">Homo sapiens</em> (human)
+                ] 
+                </h1>
+    <span class="geneid">Gene ID: 3017, updated on
+                        6-Sep-2022</span>
+  </div>
+  <div class="download-datasets">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
+    <h4 class="download-datasets-popper jig-ncbipopper" id="download-asm" style="align-self:start" data-jigconfig="triggerPosition:'bottom center', destPosition : 'top center',destSelector : '#download-datasets-popper-menu', hasArrow : false,             openEvent : 'click',closeEvent : 'click', isTriggerElementCloseClick: false, groupName: 'entrez_pg', adjustFit:'none'" role="button" aria-expanded="false" aria-haspopup="true">
+      <svg alt="download" class="dlbtn-icon" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+                <g>
+                <polygon points="48.75,36.25 48.75,48.75 11.25,48.75 11.25,36.25 5,36.25 5,55 55,55 55,36.25  "></polygon>
+                <polygon points="42.5,23.75 36.25,23.75 36.25,5 23.75,5 23.75,23.75 17.5,23.75 30,42.5  "></polygon>
+                </g>
+            </svg>
+      <a href="#">Download Datasets</a>
+    </h4>
+    <div id="download-datasets-popper-menu" style="display:none;">
+      <div class="input-group">
+        <input type="checkbox" id="datasets-ft-gene-seq-fasta" value="FASTA_GENE" checked="checked" class="download-datasets-included-seq" />
+        <label for="datasets-ft-gene-seq-fasta">Gene Sequences (FASTA)</label>
+      </div>
+      <div class="input-group">
+        <input type="checkbox" id="datasets-ft-transcript-seq-fasta" value="FASTA_RNA" class="download-datasets-included-seq" />
+        <label for="datasets-ft-transcript-seq-fasta">Transcript sequences (FASTA)</label>
+      </div>
+      <div class="input-group">
+        <input type="checkbox" id="datasets-ft-protein-seq-fasta" value="FASTA_PROTEIN" class="download-datasets-included-seq" />
+        <label for="datasets-ft-protein-seq-fasta">Protein sequences(FASTA)</label>
+      </div>
+      <p style="margin-left:5px;">In addition, your package will include a detailed data report in both TSV and JSONL formats.</p>
+      <div class="input-group">
+        <label for="datasets-download-file-name">File name</label>
+        <input type="text" id="datasets-download-file-name" placeholder="Name your file" style="padding:5px;" value="H2BC5_datasets.zip" />
+      </div>
+      <input type="hidden" id="download-datasets-base-url" value="https://api.ncbi.nlm.nih.gov/datasets/v1/gene/download" />
+      <input type="hidden" id="gene-id-value" value="3017" />
+      <button id="datasets-download-submit" data-ga-action="click_begin_download" data-ga-label="download" class="jig-ncbibutton ui-state-default ui-corner-all ui-button-text-only ui-ncbibutton ui-ncbibutton-gray" role="button">
+        <span class="ui-button-text">Download</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+    <div class="rprt-body">
+
+
+        <div class="rprt-section gene-summary">
+  <section class="rprt-section-header" id="summary">
+    <h2 id="header-summary">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-summary .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Summary</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Summary_2" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <div id="summaryDiv" class="section">
+      <dl id="summaryDl">
+        <dt class="noline"> Official
+                         Symbol</dt>
+        <dd class="noline">H2BC5<span class="prov">provided by <a href="http://www.genenames.org/" target="_blank" title="HUGO Gene Nomenclature Committee">HGNC</a></span></dd>
+        <dt> Official
+                         Full Name</dt>
+        <dd>H2B clustered histone 5<span class="prov">provided by <a href="http://www.genenames.org/" target="_blank" title="HUGO Gene Nomenclature Committee">HGNC</a></span></dd>
+        <dt>Primary source</dt>
+        <dd>
+          <a href="https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4747" data-gblink-text="Ensembl">HGNC:HGNC:4747</a>
+        </dd>
+        <dt>See related</dt>
+        <dd>
+          <a href="http://www.ensembl.org/id/ENSG00000158373" data-gblink-text="Ensembl" class="genome-browser-link" data-genome-browser-link-sort="5" data-gb-url="http://www.ensembl.org/loc/ENSG00000158373">Ensembl:ENSG00000158373</a>
+          <a href="https://www.ncbi.nlm.nih.gov/omim/602799" data-gblink-text="Ensembl" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=602799">MIM:602799;</a>
+          <a href="https://www.alliancegenome.org/gene/HGNC:4747" data-gblink-text="Ensembl" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=HGNC:4747">AllianceGenome:HGNC:4747</a>
+        </dd>
+        <dt>Gene type</dt>
+        <dd>protein coding</dd>
+        <dt>RefSeq status</dt>
+        <dd>REVIEWED</dd>
+        <dt>Organism</dt>
+        <dd class="tax">
+          <a href="/Taxonomy/Browser/wwwtax.cgi?id=9606" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=9606">Homo sapiens</a>
+        </dd>
+        <dt>Lineage</dt>
+        <dd class="tax">Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo</dd>
+        <dt>Also known as</dt>
+        <dd>H2B/a; H2B/b; H2B/g; H2B/h; H2B/k; H2B/l; H2BFA; H2BFB; H2BFG; H2BFH; H2BFK; H2BFL; H2B.1B; HIRIP2; HIST1H2BC; HIST1H2BD; HIST1H2BE; HIST1H2BF; HIST1H2BG; HIST1H2BI; dJ221C16.6</dd>
+        <dt>Summary</dt>
+        <dd>Histones are basic nuclear proteins that are responsible for the nucleosome structure of the chromosomal fiber in eukaryotes. Nucleosomes consist of approximately 146 bp of DNA wrapped around a histone octamer composed of pairs of each of the four core histones (H2A, H2B, H3, and H4). The chromatin fiber is further compacted through the interaction of a linker histone, H1, with the DNA between the nucleosomes to form higher order chromatin structures. This gene is intronless and encodes a replication-dependent histone that is a member of the histone H2B family. Two transcripts that encode the same protein have been identified for this gene, which is found in the large histone gene cluster on chromosome 6p22-p21.3. [provided by RefSeq, Aug 2015]</dd>
+        <dt>Expression</dt>
+        <dd>Broad expression in prostate (RPKM 17.6), kidney (RPKM 8.8) and 24 other tissues <a href="#gene-expression">See more</a></dd>
+        <dt>Orthologs</dt>
+        <dd class="ortholog-links">
+          <a href="/gene/3017/ortholog/">all</a>
+        </dd>
+        <dt style="padding-top:.5em;">
+          <span class="new-icon">NEW</span>
+        </dt>
+        <dd style="padding-top:.5em;">
+          <strong>Try the new <a href="/datasets/tables/genes/?table_type=genes&amp;ids=3017&amp;utm_source=gene&amp;utm_medium=referral&amp;utm_campaign=summary" data-ga-category="summary" data-ga-action="click_datasets_link" data-ga-label="gene_table" title="View selected attributes for an input list of genes and download datasets containing genomic, transcript and protein sequences along with a detailed data report.">Gene table</a></strong>
+          <br />
+          <strong>Try the new <a href="/datasets/tables/genes/?table_type=transcripts&amp;ids=3017&amp;utm_source=gene&amp;utm_medium=referral&amp;utm_campaign=summary" data-ga-category="summary" data-ga-action="click_datasets_link" data-ga-label="transcript_table" title="View selected attributes for an input list of genes and download datasets containing genomic, transcript and protein sequences along with a detailed data report.">Transcript table</a></strong>
+        </dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+
+        <div class="rprt-section gene-genomic-context">
+  <section class="rprt-section-header" id="genomic-context">
+    <h2 id="header-genomic-context">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-genomic-context .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Genomic context</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Genomic_Context" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <div class="gc_cont">
+      <div class="gt_cont_contents">
+        <div style="float:right"><span>See H2BC5 in </span><a href="/genome/gdv/?context=gene&amp;acc=3017" class="link-to-gdv genome-browser-link" data-genome-browser-link-sort="1" data-acc="GCF_000001405.40">Genome Data Viewer</a> </div>
+        <dl class="dl-chr-info" style="float:left;margin-top:0;">
+          <dt>Location: </dt>
+          <dd>
+            <span style="display:inline-block;">6p22.2</span>
+          </dd>
+        </dl>
+      </div>
+      <dl class="dl-chr-info exon-count">
+        <dt>Exon count: </dt>
+        <dd>3</dd>
+      </dl>
+      <div class="ui-ncbigrid-outer-div" id="genomic-context-tbl-location">
+        <div class="ui-ncbigrid-inner-div">
+          <table class="jig-ncbigrid" data-jigconfig="">
+            <thead>
+              <tr>
+                <th style="max-width:15%">Annotation release</th>
+                <th style="max-width:10%">Status</th>
+                <th>Assembly</th>
+                <th>
+                  <span title="Chromosome">Chr</span>
+                </th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a href="/genome/annotation_euk/Homo_sapiens/110/" ref="ncbi_uid=3017">110</a>
+                </td>
+                <td>current</td>
+                <td>GRCh38.p14 (<a href="/assembly/GCF_000001405.40/" ref="ncbi_uid=3017&amp;link_uid=GCF_000001405.40">GCF_000001405.40</a>)</td>
+                <td>6</td>
+                <td>NC_000006.12 (26158121..26171349) </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="/genome/annotation_euk/Homo_sapiens/110/" ref="ncbi_uid=3017">110</a>
+                </td>
+                <td>current</td>
+                <td>T2T-CHM13v2.0 (<a href="/assembly/GCF_009914755.1/" ref="ncbi_uid=3017&amp;link_uid=GCF_009914755.1">GCF_009914755.1</a>)</td>
+                <td>6</td>
+                <td>NC_060930.1 (26026257..26039486) </td>
+              </tr>
+              <tr>
+                <td>105.20220307</td>
+                <td>previous assembly</td>
+                <td>GRCh37.p13 (<a href="/assembly/GCF_000001405.25/" ref="ncbi_uid=3017&amp;link_uid=GCF_000001405.25">GCF_000001405.25</a>)</td>
+                <td>6</td>
+                <td>NC_000006.11 (26158349..26171577) </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <p class="withnote margin_t2em"><strong>Chromosome 6 - NC_000006.12</strong><img usemap="#nbrMap3017_568815592" border="0" alt="Genomic Context describing neighboring genes" src="/gutils/geneneighb.fcgi?geneid=3017&amp;nuc_gi=568815592&amp;n0=H2AC6&amp;n1=H1-4&amp;n2=H2BC5&amp;n3=LOC123620071&amp;n4=LARP1P1&amp;n5=H2BC6&amp;n6=H4C4" /><map name="nbrMap3017_568815592" id="nbrMap3017_568815592">
+<area shape="rect" onMouseOver="showtip(this,event,'H2A clustered histone 6')" onMouseOut="hidetip()" coords="37,23,72,31" alt="Neighboring gene H2A clustered histone 6" href="/gene/8334" />
+<area shape="rect" onMouseOver="showtip(this,event,'Sharpr-MPRA regulatory region 13869')" onMouseOut="hidetip()" coords="197,23,267,31" alt="Neighboring gene Sharpr-MPRA regulatory region 13869" href="/gene/123620071" />
+<area shape="rect" onMouseOver="showtip(this,event,'H1.4 linker histone, cluster member')" onMouseOut="hidetip()" coords="220,35,250,43" alt="Neighboring gene H1.4 linker histone, cluster member" href="/gene/3008" />
+<area shape="rect" onMouseOver="showtip(this,event,'LARP1 pseudogene 1')" onMouseOut="hidetip()" coords="247,59,307,67" alt="Neighboring gene LARP1 pseudogene 1" href="/gene/100379623" />
+<area shape="rect" onMouseOver="showtip(this,event,'H2B clustered histone 6')" onMouseOut="hidetip()" coords="366,23,401,31" alt="Neighboring gene H2B clustered histone 6" href="/gene/8344" />
+<area shape="rect" onMouseOver="showtip(this,event,'H4 clustered histone 4')" onMouseOut="hidetip()" coords="393,35,423,43" alt="Neighboring gene H4 clustered histone 4" href="/gene/8360" />
+</map>
+</p>
+  </div>
+</div>
+
+        <div class="rprt-section gene-genomic-regions-transcripts-products">
+  <section class="rprt-section-header" id="genomic-regions-transcripts-products">
+    <h2 id="header-genomic-regions-transcripts-products">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-genomic-regions-transcripts-products .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Genomic regions, transcripts, and products</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Genomic_Regions_Transcripts_a" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <div>
+      <div style="text-align:right;">Go to <a href="#reference-sequences">reference sequence details</a></div>
+    </div>
+    <div>
+      <p class="choose">
+        <label for="accession" class="label">Genomic Sequence: </label>
+        <select name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.accessionList" sid="1" id="accessionList" data-taxid="9606" data-geneid="3017">
+          <option value="NC_000006.12_26158120_26171348">NC_000006.12 Chromosome 6 Reference GRCh38.p14 Primary Assembly</option>
+          <option value="NC_060930.1_26026256_26039485">NC_060930.1 Chromosome 6 Alternate T2T-CHM13v2.0</option>
+          <option value="NC_000006.11_26158348_26171576">NC_000006.11 Chromosome 6 Reference GRCh37.p13 Primary Assembly</option>
+        </select>
+      </p>
+    </div>
+    <div id="NC_000006" class="divAccession">
+      <div class="seq-viewer">
+        <p class="note-link">
+          <strong>Go to nucleotide:</strong>
+          <a title="Nucleotide Graphic report" href="/nuccore/NC_000006.12?report=graph&amp;from=26156136&amp;to=26173332&amp;app_context=Gene&amp;assm_context=GCF_000001405.40" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_000006.12">Graphics</a>
+          <a title="Nucleotide FASTA report" href="/nuccore/NC_000006.12?report=fasta&amp;from=26158121&amp;to=26171349" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_000006.12">FASTA</a>
+          <a title="Nucleotide GenBank report" href="/nuccore/NC_000006.12?report=genbank&amp;from=26158121&amp;to=26171349" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_000006.12">GenBank</a>
+        </p>
+        <div id="divNC_000006" class="SeqViewerApp" style="clear:both;" data-sv="appname=ncbigene&amp;embedded=true&amp;noslider=1&amp;id=NC_000006.12&amp;from=26156136&amp;to=26173332&amp;app_context=Gene&amp;assm_context=GCF_000001405.40">
+          <a href="?appname=ncbigene&amp;embedded=true&amp;noslider=1&amp;id=NC_000006.12&amp;from=26156136&amp;to=26173332&amp;app_context=Gene&amp;assm_context=GCF_000001405.40"></a>
+        </div>
+      </div>
+    </div>
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.nucleotideLink_NC_000006.12" sid="1" type="hidden" id="nucleotideLink_NC_000006_12_26158120_26171348" value="&lt;p class=&quot;note-link&quot;&gt;&lt;strong&gt;Go to nucleotide:&lt;/strong&gt;&lt;a title=&quot;Nucleotide Graphic report&quot; href=&quot;/nuccore/NC_000006.12?report=graph&amp;amp;from=26156136&amp;amp;to=26173332&amp;amp;app_context=Gene&amp;amp;assm_context=GCF_000001405.40&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_000006.12&quot;&gt;Graphics&lt;/a&gt;&lt;a title=&quot;Nucleotide FASTA report&quot; href=&quot;/nuccore/NC_000006.12?report=fasta&amp;amp;from=26158121&amp;amp;to=26171349&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_000006.12&quot;&gt;FASTA&lt;/a&gt;&lt;a title=&quot;Nucleotide GenBank report&quot; href=&quot;/nuccore/NC_000006.12?report=genbank&amp;amp;from=26158121&amp;amp;to=26171349&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_000006.12&quot;&gt;GenBank&lt;/a&gt;&lt;/p&gt;" />
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.relString_NC_000006.12" sid="1" type="hidden" id="relString_NC_000006_12_26158120_26171348" value="appname=ncbigene&amp;amp;embedded=true&amp;amp;noslider=1&amp;amp;id=NC_000006.12&amp;amp;from=26156136&amp;amp;to=26173332&amp;amp;app_context=Gene&amp;amp;assm_context=GCF_000001405.40" />
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.nucleotideLink_NC_060930.1" sid="1" type="hidden" id="nucleotideLink_NC_060930_1_26026256_26039485" value="&lt;p class=&quot;note-link&quot;&gt;&lt;strong&gt;Go to nucleotide:&lt;/strong&gt;&lt;a title=&quot;Nucleotide Graphic report&quot; href=&quot;/nuccore/NC_060930.1?report=graph&amp;amp;from=26024272&amp;amp;to=26041469&amp;amp;app_context=Gene&amp;amp;assm_context=GCF_009914755.1&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_060930.1&quot;&gt;Graphics&lt;/a&gt;&lt;a title=&quot;Nucleotide FASTA report&quot; href=&quot;/nuccore/NC_060930.1?report=fasta&amp;amp;from=26026257&amp;amp;to=26039486&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_060930.1&quot;&gt;FASTA&lt;/a&gt;&lt;a title=&quot;Nucleotide GenBank report&quot; href=&quot;/nuccore/NC_060930.1?report=genbank&amp;amp;from=26026257&amp;amp;to=26039486&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_060930.1&quot;&gt;GenBank&lt;/a&gt;&lt;/p&gt;" />
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.relString_NC_060930.1" sid="1" type="hidden" id="relString_NC_060930_1_26026256_26039485" value="appname=ncbigene&amp;amp;embedded=true&amp;amp;noslider=1&amp;amp;id=NC_060930.1&amp;amp;from=26024272&amp;amp;to=26041469&amp;amp;app_context=Gene&amp;amp;assm_context=GCF_009914755.1" />
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.nucleotideLink_NC_000006.11" sid="1" type="hidden" id="nucleotideLink_NC_000006_11_26158348_26171576" value="&lt;p class=&quot;note-link&quot;&gt;&lt;strong&gt;Go to nucleotide:&lt;/strong&gt;&lt;a title=&quot;Nucleotide Graphic report&quot; href=&quot;/nuccore/NC_000006.11?report=graph&amp;amp;from=26156364&amp;amp;to=26173560&amp;amp;app_context=Gene&amp;amp;assm_context=GCF_000001405.25&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_000006.11&quot;&gt;Graphics&lt;/a&gt;&lt;a title=&quot;Nucleotide FASTA report&quot; href=&quot;/nuccore/NC_000006.11?report=fasta&amp;amp;from=26158349&amp;amp;to=26171577&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_000006.11&quot;&gt;FASTA&lt;/a&gt;&lt;a title=&quot;Nucleotide GenBank report&quot; href=&quot;/nuccore/NC_000006.11?report=genbank&amp;amp;from=26158349&amp;amp;to=26171577&quot; ref=&quot;ordinalpos=1&amp;amp;ncbi_uid=3017&amp;amp;link_uid=NC_000006.11&quot;&gt;GenBank&lt;/a&gt;&lt;/p&gt;" />
+    <input name="EntrezSystem2.PEntrez.Gene.Gene_ResultsPanel.Gene_RVFullReport.Gene_GenomicProductsP.relString_NC_000006.11" sid="1" type="hidden" id="relString_NC_000006_11_26158348_26171576" value="appname=ncbigene&amp;amp;embedded=true&amp;amp;noslider=1&amp;amp;id=NC_000006.11&amp;amp;from=26156364&amp;amp;to=26173560&amp;amp;app_context=Gene&amp;amp;assm_context=GCF_000001405.25" />
+  </div>
+</div>
+
+
+        <div class="rprt-section gene-gene-expression">
+  <section class="rprt-section-header" id="gene-expression">
+    <h2 id="header-gene-expression">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-gene-expression .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Expression</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Expression" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <div>
+      <div style="text-align:right;">
+        <a href="/gene/3017/?report=expression" data-url="/gene/3017/?report=expression" id="gene-expression-see-details">See details</a>
+      </div>
+      <div id="gene-expression-app" data-url="https://www.ncbi.nlm.nih.gov/gene/3017" data-report-type="summary">
+        <div>
+    <script type="text/javascript">
+
+    
+        var tissues_data = {'adrenal': {'id': '3017_adrenal_PRJEB4337', 'gene': 3017, 'source_name': 'adrenal', 'full_rpkm': 2.24622, 'exp_rpkm': 2.25, 'var': 0.2388477, 'project_desc': 'PRJEB4337', '_version_': 1690804052881833995}, 'appendix': {'id': '3017_appendix_PRJEB4337', 'gene': 3017, 'source_name': 'appendix', 'full_rpkm': 2.03364, 'exp_rpkm': 2.03, 'var': 0.2416998, 'project_desc': 'PRJEB4337', '_version_': 1690804052881833996}, 'bone marrow': {'id': '3017_bone marrow_PRJEB4337', 'gene': 3017, 'source_name': 'bone marrow', 'full_rpkm': 5.42807, 'exp_rpkm': 5.43, 'var': 31.37108, 'project_desc': 'PRJEB4337', '_version_': 1690804052881833997}, 'brain': {'id': '3017_brain_PRJEB4337', 'gene': 3017, 'source_name': 'brain', 'full_rpkm': 1.05958, 'exp_rpkm': 1.06, 'var': 0.0340593, 'project_desc': 'PRJEB4337', '_version_': 1690804052881833998}, 'colon': {'id': '3017_colon_PRJEB4337', 'gene': 3017, 'source_name': 'colon', 'full_rpkm': 8.56275, 'exp_rpkm': 8.56, 'var': 2.04336, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882560}, 'duodenum': {'id': '3017_duodenum_PRJEB4337', 'gene': 3017, 'source_name': 'duodenum', 'full_rpkm': 2.24308, 'exp_rpkm': 2.24, 'var': 0.0093182, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882561}, 'endometrium': {'id': '3017_endometrium_PRJEB4337', 'gene': 3017, 'source_name': 'endometrium', 'full_rpkm': 1.49442, 'exp_rpkm': 1.49, 'var': 0.532029, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882562}, 'esophagus': {'id': '3017_esophagus_PRJEB4337', 'gene': 3017, 'source_name': 'esophagus', 'full_rpkm': 1.15871, 'exp_rpkm': 1.16, 'var': 0.2214399, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882563}, 'fat': {'id': '3017_fat_PRJEB4337', 'gene': 3017, 'source_name': 'fat', 'full_rpkm': 1.10195, 'exp_rpkm': 1.1, 'var': 0.1140939, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882564}, 'gall bladder': {'id': '3017_gall bladder_PRJEB4337', 'gene': 3017, 'source_name': 'gall bladder', 'full_rpkm': 3.02856, 'exp_rpkm': 3.03, 'var': 2.23728, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882565}, 'heart': {'id': '3017_heart_PRJEB4337', 'gene': 3017, 'source_name': 'heart', 'full_rpkm': 2.32087, 'exp_rpkm': 2.32, 'var': 0.86772, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882566}, 'kidney': {'id': '3017_kidney_PRJEB4337', 'gene': 3017, 'source_name': 'kidney', 'full_rpkm': 8.84218, 'exp_rpkm': 8.84, 'var': 2.542428, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882567}, 'liver': {'id': '3017_liver_PRJEB4337', 'gene': 3017, 'source_name': 'liver', 'full_rpkm': 6.61645, 'exp_rpkm': 6.62, 'var': 6.42948, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882568}, 'lung': {'id': '3017_lung_PRJEB4337', 'gene': 3017, 'source_name': 'lung', 'full_rpkm': 1.17495, 'exp_rpkm': 1.17, 'var': 0.160158, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882569}, 'lymph node': {'id': '3017_lymph node_PRJEB4337', 'gene': 3017, 'source_name': 'lymph node', 'full_rpkm': 1.43425, 'exp_rpkm': 1.43, 'var': 0.051166, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882570}, 'ovary': {'id': '3017_ovary_PRJEB4337', 'gene': 3017, 'source_name': 'ovary', 'full_rpkm': 2.71924, 'exp_rpkm': 2.72, 'var': 0.1314008, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882571}, 'pancreas': {'id': '3017_pancreas_PRJEB4337', 'gene': 3017, 'source_name': 'pancreas', 'full_rpkm': 0.362386, 'exp_rpkm': 0.362, 'var': 0.00402654, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882572}, 'placenta': {'id': '3017_placenta_PRJEB4337', 'gene': 3017, 'source_name': 'placenta', 'full_rpkm': 2.77955, 'exp_rpkm': 2.78, 'var': 1.36674, 'project_desc': 'PRJEB4337', '_version_': 1690804052882882573}, 'prostate': {'id': '3017_prostate_PRJEB4337', 'gene': 3017, 'source_name': 'prostate', 'full_rpkm': 17.7945, 'exp_rpkm': 17.8, 'var': 26.75948, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931136}, 'salivary gland': {'id': '3017_salivary gland_PRJEB4337', 'gene': 3017, 'source_name': 'salivary gland', 'full_rpkm': 1.32146, 'exp_rpkm': 1.32, 'var': 0.520017, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931137}, 'skin': {'id': '3017_skin_PRJEB4337', 'gene': 3017, 'source_name': 'skin', 'full_rpkm': 1.18134, 'exp_rpkm': 1.18, 'var': 0.001588077, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931138}, 'small intestine': {'id': '3017_small intestine_PRJEB4337', 'gene': 3017, 'source_name': 'small intestine', 'full_rpkm': 3.05004, 'exp_rpkm': 3.05, 'var': 1.281064, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931139}, 'spleen': {'id': '3017_spleen_PRJEB4337', 'gene': 3017, 'source_name': 'spleen', 'full_rpkm': 1.94896, 'exp_rpkm': 1.95, 'var': 0.3821288, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931140}, 'stomach': {'id': '3017_stomach_PRJEB4337', 'gene': 3017, 'source_name': 'stomach', 'full_rpkm': 6.17624, 'exp_rpkm': 6.18, 'var': 3.99225, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931141}, 'testis': {'id': '3017_testis_PRJEB4337', 'gene': 3017, 'source_name': 'testis', 'full_rpkm': 1.83406, 'exp_rpkm': 1.83, 'var': 0.2389534, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931142}, 'thyroid': {'id': '3017_thyroid_PRJEB4337', 'gene': 3017, 'source_name': 'thyroid', 'full_rpkm': 2.04442, 'exp_rpkm': 2.04, 'var': 0.708348, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931143}, 'urinary bladder': {'id': '3017_urinary bladder_PRJEB4337', 'gene': 3017, 'source_name': 'urinary bladder', 'full_rpkm': 2.66242, 'exp_rpkm': 2.66, 'var': 0.01262632, 'project_desc': 'PRJEB4337', '_version_': 1690804052883931144}};
+    
+
+
+    
+    var details_data = {
+        
+            "adrenal": [{'id': 'metadata_9606_SAMEA2145544', 'gene': 3017, 'sample_id': 'SAMEA2145544', 'full_rpkm': 1.5551, 'exp_rpkm': 1.56, 'exp_total': 6462, 'project_desc': 'PRJEB4337', '_version_': 1690804028872589313, 'taxid': 9606, 'source_name': 'adrenal', 'exp_Mcount': 3266.8}, {'id': 'metadata_9606_SAMEA2146411', 'gene': 3017, 'sample_id': 'SAMEA2146411', 'full_rpkm': 2.59782, 'exp_rpkm': 2.6, 'exp_total': 12365, 'project_desc': 'PRJEB4337', '_version_': 1690804028876783616, 'taxid': 9606, 'source_name': 'adrenal', 'exp_Mcount': 3741.96}, {'id': 'metadata_9606_SAMEA2162841', 'gene': 3017, 'sample_id': 'SAMEA2162841', 'full_rpkm': 2.58574, 'exp_rpkm': 2.59, 'exp_total': 13953, 'project_desc': 'PRJEB4337', '_version_': 1690804028895657984, 'taxid': 9606, 'source_name': 'adrenal', 'exp_Mcount': 4242.24}],
+        
+            "appendix": [{'id': 'metadata_9606_SAMEA1966682', 'gene': 3017, 'sample_id': 'SAMEA1966682', 'full_rpkm': 1.81483, 'exp_rpkm': 1.81, 'exp_total': 7416, 'project_desc': 'PRJEB4337', '_version_': 1690804028861054976, 'taxid': 9606, 'source_name': 'appendix', 'exp_Mcount': 3212.53}, {'id': 'metadata_9606_SAMEA2142670', 'gene': 3017, 'sample_id': 'SAMEA2142670', 'full_rpkm': 1.57152, 'exp_rpkm': 1.57, 'exp_total': 5918, 'project_desc': 'PRJEB4337', '_version_': 1690804028866297857, 'taxid': 9606, 'source_name': 'appendix', 'exp_Mcount': 2960.52}, {'id': 'metadata_9606_SAMEA2151358', 'gene': 3017, 'sample_id': 'SAMEA2151358', 'full_rpkm': 2.71457, 'exp_rpkm': 2.71, 'exp_total': 13341, 'project_desc': 'PRJEB4337', '_version_': 1690804028882026496, 'taxid': 9606, 'source_name': 'appendix', 'exp_Mcount': 3863.67}],
+        
+            "bone marrow": [{'id': 'metadata_9606_SAMEA2149004', 'gene': 3017, 'sample_id': 'SAMEA2149004', 'full_rpkm': 2.4164, 'exp_rpkm': 2.42, 'exp_total': 21693, 'project_desc': 'PRJEB4337', '_version_': 1690804028879929344, 'taxid': 9606, 'source_name': 'bone marrow', 'exp_Mcount': 7057.69}, {'id': 'metadata_9606_SAMEA2154529', 'gene': 3017, 'sample_id': 'SAMEA2154529', 'full_rpkm': 15.1234, 'exp_rpkm': 15.1, 'exp_total': 151660, 'project_desc': 'PRJEB4337', '_version_': 1690804028886220804, 'taxid': 9606, 'source_name': 'bone marrow', 'exp_Mcount': 7883.79}, {'id': 'metadata_9606_SAMEA2162823', 'gene': 3017, 'sample_id': 'SAMEA2162823', 'full_rpkm': 1.88645, 'exp_rpkm': 1.89, 'exp_total': 14644, 'project_desc': 'PRJEB4337', '_version_': 1690804028894609411, 'taxid': 9606, 'source_name': 'bone marrow', 'exp_Mcount': 6102.77}, {'id': 'metadata_9606_SAMEA2163105', 'gene': 3017, 'sample_id': 'SAMEA2163105', 'full_rpkm': 2.28606, 'exp_rpkm': 2.29, 'exp_total': 21998, 'project_desc': 'PRJEB4337', '_version_': 1690804028895657987, 'taxid': 9606, 'source_name': 'bone marrow', 'exp_Mcount': 7564.99}],
+        
+            "brain": [{'id': 'metadata_9606_SAMEA2145743', 'gene': 3017, 'sample_id': 'SAMEA2145743', 'full_rpkm': 0.874681, 'exp_rpkm': 0.875, 'exp_total': 4955, 'project_desc': 'PRJEB4337', '_version_': 1690804028872589314, 'taxid': 9606, 'source_name': 'brain', 'exp_Mcount': 4453.56}, {'id': 'metadata_9606_SAMEA2154665', 'gene': 3017, 'sample_id': 'SAMEA2154665', 'full_rpkm': 1.31155, 'exp_rpkm': 1.31, 'exp_total': 5616, 'project_desc': 'PRJEB4337', '_version_': 1690804028887269376, 'taxid': 9606, 'source_name': 'brain', 'exp_Mcount': 3366.31}, {'id': 'metadata_9606_SAMEA2157437', 'gene': 3017, 'sample_id': 'SAMEA2157437', 'full_rpkm': 0.992499, 'exp_rpkm': 0.992, 'exp_total': 6484, 'project_desc': 'PRJEB4337', '_version_': 1690804028890415104, 'taxid': 9606, 'source_name': 'brain', 'exp_Mcount': 5136.01}],
+        
+            "colon": [{'id': 'metadata_9606_SAMEA1968540', 'gene': 3017, 'sample_id': 'SAMEA1968540', 'full_rpkm': 8.20792, 'exp_rpkm': 8.21, 'exp_total': 107425, 'project_desc': 'PRJEB4337', '_version_': 1690804028863152128, 'taxid': 9606, 'source_name': 'colon', 'exp_Mcount': 10289.3}, {'id': 'metadata_9606_SAMEA2142348', 'gene': 3017, 'sample_id': 'SAMEA2142348', 'full_rpkm': 8.03425, 'exp_rpkm': 8.03, 'exp_total': 65172, 'project_desc': 'PRJEB4337', '_version_': 1690804028865249280, 'taxid': 9606, 'source_name': 'colon', 'exp_Mcount': 6377.18}, {'id': 'metadata_9606_SAMEA2152568', 'gene': 3017, 'sample_id': 'SAMEA2152568', 'full_rpkm': 11.2276, 'exp_rpkm': 11.2, 'exp_total': 42364, 'project_desc': 'PRJEB4337', '_version_': 1690804028883075073, 'taxid': 9606, 'source_name': 'colon', 'exp_Mcount': 2966.34}, {'id': 'metadata_9606_SAMEA2152798', 'gene': 3017, 'sample_id': 'SAMEA2152798', 'full_rpkm': 6.92266, 'exp_rpkm': 6.92, 'exp_total': 49359, 'project_desc': 'PRJEB4337', '_version_': 1690804028883075075, 'taxid': 9606, 'source_name': 'colon', 'exp_Mcount': 5605.4}, {'id': 'metadata_9606_SAMEA2156266', 'gene': 3017, 'sample_id': 'SAMEA2156266', 'full_rpkm': 8.42126, 'exp_rpkm': 8.42, 'exp_total': 36391, 'project_desc': 'PRJEB4337', '_version_': 1690804028889366530, 'taxid': 9606, 'source_name': 'colon', 'exp_Mcount': 3397.27}],
+        
+            "duodenum": [{'id': 'metadata_9606_SAMEA2144835', 'gene': 3017, 'sample_id': 'SAMEA2144835', 'full_rpkm': 2.14655, 'exp_rpkm': 2.15, 'exp_total': 9964, 'project_desc': 'PRJEB4337', '_version_': 1690804028870492160, 'taxid': 9606, 'source_name': 'duodenum', 'exp_Mcount': 3649.27}, {'id': 'metadata_9606_SAMEA2153946', 'gene': 3017, 'sample_id': 'SAMEA2153946', 'full_rpkm': 2.33961, 'exp_rpkm': 2.34, 'exp_total': 9550, 'project_desc': 'PRJEB4337', '_version_': 1690804028885172226, 'taxid': 9606, 'source_name': 'duodenum', 'exp_Mcount': 3209.02}],
+        
+            "endometrium": [{'id': 'metadata_9606_SAMEA1968189', 'gene': 3017, 'sample_id': 'SAMEA1968189', 'full_rpkm': 2.50259, 'exp_rpkm': 2.5, 'exp_total': 8353, 'project_desc': 'PRJEB4337', '_version_': 1690804028862103552, 'taxid': 9606, 'source_name': 'endometrium', 'exp_Mcount': 2624.02}, {'id': 'metadata_9606_SAMEA2155974', 'gene': 3017, 'sample_id': 'SAMEA2155974', 'full_rpkm': 1.17938, 'exp_rpkm': 1.18, 'exp_total': 5316, 'project_desc': 'PRJEB4337', '_version_': 1690804028888317955, 'taxid': 9606, 'source_name': 'endometrium', 'exp_Mcount': 3543.6}, {'id': 'metadata_9606_SAMEA2156099', 'gene': 3017, 'sample_id': 'SAMEA2156099', 'full_rpkm': 0.801284, 'exp_rpkm': 0.801, 'exp_total': 6674, 'project_desc': 'PRJEB4337', '_version_': 1690804028889366529, 'taxid': 9606, 'source_name': 'endometrium', 'exp_Mcount': 6548.06}],
+        
+            "esophagus": [{'id': 'metadata_9606_SAMEA2147975', 'gene': 3017, 'sample_id': 'SAMEA2147975', 'full_rpkm': 0.824215, 'exp_rpkm': 0.824, 'exp_total': 6547, 'project_desc': 'PRJEB4337', '_version_': 1690804028878880768, 'taxid': 9606, 'source_name': 'esophagus', 'exp_Mcount': 6244.74}, {'id': 'metadata_9606_SAMEA2156670', 'gene': 3017, 'sample_id': 'SAMEA2156670', 'full_rpkm': 0.827723, 'exp_rpkm': 0.828, 'exp_total': 7066, 'project_desc': 'PRJEB4337', '_version_': 1690804028889366531, 'taxid': 9606, 'source_name': 'esophagus', 'exp_Mcount': 6711.22}, {'id': 'metadata_9606_SAMEA2158800', 'gene': 3017, 'sample_id': 'SAMEA2158800', 'full_rpkm': 1.8242, 'exp_rpkm': 1.82, 'exp_total': 13051, 'project_desc': 'PRJEB4337', '_version_': 1690804028891463680, 'taxid': 9606, 'source_name': 'esophagus', 'exp_Mcount': 5624.5}],
+        
+            "fat": [{'id': 'metadata_9606_SAMEA2142680', 'gene': 3017, 'sample_id': 'SAMEA2142680', 'full_rpkm': 1.42884, 'exp_rpkm': 1.43, 'exp_total': 6958, 'project_desc': 'PRJEB4337', '_version_': 1690804028867346432, 'taxid': 9606, 'source_name': 'fat', 'exp_Mcount': 3828.36}, {'id': 'metadata_9606_SAMEA2153980', 'gene': 3017, 'sample_id': 'SAMEA2153980', 'full_rpkm': 1.24015, 'exp_rpkm': 1.24, 'exp_total': 4200, 'project_desc': 'PRJEB4337', '_version_': 1690804028886220800, 'taxid': 9606, 'source_name': 'fat', 'exp_Mcount': 2662.49}, {'id': 'metadata_9606_SAMEA2154125', 'gene': 3017, 'sample_id': 'SAMEA2154125', 'full_rpkm': 0.636846, 'exp_rpkm': 0.637, 'exp_total': 3966, 'project_desc': 'PRJEB4337', '_version_': 1690804028886220801, 'taxid': 9606, 'source_name': 'fat', 'exp_Mcount': 4895.89}],
+        
+            "gall bladder": [{'id': 'metadata_9606_SAMEA2146982', 'gene': 3017, 'sample_id': 'SAMEA2146982', 'full_rpkm': 1.38069, 'exp_rpkm': 1.38, 'exp_total': 9658, 'project_desc': 'PRJEB4337', '_version_': 1690804028877832192, 'taxid': 9606, 'source_name': 'gall bladder', 'exp_Mcount': 5499.25}, {'id': 'metadata_9606_SAMEA2159912', 'gene': 3017, 'sample_id': 'SAMEA2159912', 'full_rpkm': 5.00111, 'exp_rpkm': 5.0, 'exp_total': 44405, 'project_desc': 'PRJEB4337', '_version_': 1690804028892512257, 'taxid': 9606, 'source_name': 'gall bladder', 'exp_Mcount': 6980.37}, {'id': 'metadata_9606_SAMEA2163459', 'gene': 3017, 'sample_id': 'SAMEA2163459', 'full_rpkm': 2.70388, 'exp_rpkm': 2.7, 'exp_total': 20825, 'project_desc': 'PRJEB4337', '_version_': 1690804028895657988, 'taxid': 9606, 'source_name': 'gall bladder', 'exp_Mcount': 6054.95}],
+        
+            "heart": [{'id': 'metadata_9606_SAMEA2151741', 'gene': 3017, 'sample_id': 'SAMEA2151741', 'full_rpkm': 1.98253, 'exp_rpkm': 1.98, 'exp_total': 17904, 'project_desc': 'PRJEB4337', '_version_': 1690804028882026498, 'taxid': 9606, 'source_name': 'heart', 'exp_Mcount': 7099.75}, {'id': 'metadata_9606_SAMEA2154361', 'gene': 3017, 'sample_id': 'SAMEA2154361', 'full_rpkm': 3.91566, 'exp_rpkm': 3.92, 'exp_total': 29584, 'project_desc': 'PRJEB4337', '_version_': 1690804028886220802, 'taxid': 9606, 'source_name': 'heart', 'exp_Mcount': 5939.7}, {'id': 'metadata_9606_SAMEA2155550', 'gene': 3017, 'sample_id': 'SAMEA2155550', 'full_rpkm': 1.80155, 'exp_rpkm': 1.8, 'exp_total': 14936, 'project_desc': 'PRJEB4337', '_version_': 1690804028887269378, 'taxid': 9606, 'source_name': 'heart', 'exp_Mcount': 6517.79}, {'id': 'metadata_9606_SAMEA2159607', 'gene': 3017, 'sample_id': 'SAMEA2159607', 'full_rpkm': 1.58374, 'exp_rpkm': 1.58, 'exp_total': 12343, 'project_desc': 'PRJEB4337', '_version_': 1690804028891463683, 'taxid': 9606, 'source_name': 'heart', 'exp_Mcount': 6127.03}],
+        
+            "kidney": [{'id': 'metadata_9606_SAMEA1970526', 'gene': 3017, 'sample_id': 'SAMEA1970526', 'full_rpkm': 6.87092, 'exp_rpkm': 6.87, 'exp_total': 29489, 'project_desc': 'PRJEB4337', '_version_': 1690804028864200705, 'taxid': 9606, 'source_name': 'kidney', 'exp_Mcount': 3374.1}, {'id': 'metadata_9606_SAMEA2145774', 'gene': 3017, 'sample_id': 'SAMEA2145774', 'full_rpkm': 10.8503, 'exp_rpkm': 10.9, 'exp_total': 30343, 'project_desc': 'PRJEB4337', '_version_': 1690804028873637888, 'taxid': 9606, 'source_name': 'kidney', 'exp_Mcount': 2198.51}, {'id': 'metadata_9606_SAMEA2159080', 'gene': 3017, 'sample_id': 'SAMEA2159080', 'full_rpkm': 7.76295, 'exp_rpkm': 7.76, 'exp_total': 45902, 'project_desc': 'PRJEB4337', '_version_': 1690804028891463681, 'taxid': 9606, 'source_name': 'kidney', 'exp_Mcount': 4648.55}, {'id': 'metadata_9606_SAMEA2162328', 'gene': 3017, 'sample_id': 'SAMEA2162328', 'full_rpkm': 9.88454, 'exp_rpkm': 9.88, 'exp_total': 40215, 'project_desc': 'PRJEB4337', '_version_': 1690804028894609409, 'taxid': 9606, 'source_name': 'kidney', 'exp_Mcount': 3198.49}],
+        
+            "liver": [{'id': 'metadata_9606_SAMEA2145122', 'gene': 3017, 'sample_id': 'SAMEA2145122', 'full_rpkm': 3.03467, 'exp_rpkm': 3.03, 'exp_total': 9884, 'project_desc': 'PRJEB4337', '_version_': 1690804028870492161, 'taxid': 9606, 'source_name': 'liver', 'exp_Mcount': 2560.55}, {'id': 'metadata_9606_SAMEA2155590', 'gene': 3017, 'sample_id': 'SAMEA2155590', 'full_rpkm': 8.25764, 'exp_rpkm': 8.26, 'exp_total': 47131, 'project_desc': 'PRJEB4337', '_version_': 1690804028887269379, 'taxid': 9606, 'source_name': 'liver', 'exp_Mcount': 4487.08}, {'id': 'metadata_9606_SAMEA2162895', 'gene': 3017, 'sample_id': 'SAMEA2162895', 'full_rpkm': 8.55703, 'exp_rpkm': 8.56, 'exp_total': 70489, 'project_desc': 'PRJEB4337', '_version_': 1690804028895657985, 'taxid': 9606, 'source_name': 'liver', 'exp_Mcount': 6476.07}],
+        
+            "lung": [{'id': 'metadata_9606_SAMEA2142363', 'gene': 3017, 'sample_id': 'SAMEA2142363', 'full_rpkm': 0.720644, 'exp_rpkm': 0.721, 'exp_total': 1532, 'project_desc': 'PRJEB4337', '_version_': 1690804028865249281, 'taxid': 9606, 'source_name': 'lung', 'exp_Mcount': 1671.29}, {'id': 'metadata_9606_SAMEA2144333', 'gene': 3017, 'sample_id': 'SAMEA2144333', 'full_rpkm': 1.72497, 'exp_rpkm': 1.72, 'exp_total': 12800, 'project_desc': 'PRJEB4337', '_version_': 1690804028868395009, 'taxid': 9606, 'source_name': 'lung', 'exp_Mcount': 5833.68}, {'id': 'metadata_9606_SAMEA2147920', 'gene': 3017, 'sample_id': 'SAMEA2147920', 'full_rpkm': 0.720116, 'exp_rpkm': 0.72, 'exp_total': 4625, 'project_desc': 'PRJEB4337', '_version_': 1690804028877832194, 'taxid': 9606, 'source_name': 'lung', 'exp_Mcount': 5049.19}, {'id': 'metadata_9606_SAMEA2155770', 'gene': 3017, 'sample_id': 'SAMEA2155770', 'full_rpkm': 1.2532, 'exp_rpkm': 1.25, 'exp_total': 5293, 'project_desc': 'PRJEB4337', '_version_': 1690804028888317954, 'taxid': 9606, 'source_name': 'lung', 'exp_Mcount': 3320.42}, {'id': 'metadata_9606_SAMEA2158569', 'gene': 3017, 'sample_id': 'SAMEA2158569', 'full_rpkm': 1.45581, 'exp_rpkm': 1.46, 'exp_total': 8885, 'project_desc': 'PRJEB4337', '_version_': 1690804028890415107, 'taxid': 9606, 'source_name': 'lung', 'exp_Mcount': 4798.06}],
+        
+            "lymph node": [{'id': 'metadata_9606_SAMEA1965299', 'gene': 3017, 'sample_id': 'SAMEA1965299', 'full_rpkm': 1.15816, 'exp_rpkm': 1.16, 'exp_total': 11225, 'project_desc': 'PRJEB4337', '_version_': 1690804028853714944, 'taxid': 9606, 'source_name': 'lymph node', 'exp_Mcount': 7619.56}, {'id': 'metadata_9606_SAMEA2149876', 'gene': 3017, 'sample_id': 'SAMEA2149876', 'full_rpkm': 1.61174, 'exp_rpkm': 1.61, 'exp_total': 9456, 'project_desc': 'PRJEB4337', '_version_': 1690804028879929347, 'taxid': 9606, 'source_name': 'lymph node', 'exp_Mcount': 4612.39}, {'id': 'metadata_9606_SAMEA2150385', 'gene': 3017, 'sample_id': 'SAMEA2150385', 'full_rpkm': 1.73041, 'exp_rpkm': 1.73, 'exp_total': 10258, 'project_desc': 'PRJEB4337', '_version_': 1690804028880977920, 'taxid': 9606, 'source_name': 'lymph node', 'exp_Mcount': 4660.43}, {'id': 'metadata_9606_SAMEA2152719', 'gene': 3017, 'sample_id': 'SAMEA2152719', 'full_rpkm': 1.19251, 'exp_rpkm': 1.19, 'exp_total': 10791, 'project_desc': 'PRJEB4337', '_version_': 1690804028883075074, 'taxid': 9606, 'source_name': 'lymph node', 'exp_Mcount': 7113.99}, {'id': 'metadata_9606_SAMEA2155628', 'gene': 3017, 'sample_id': 'SAMEA2155628', 'full_rpkm': 1.47845, 'exp_rpkm': 1.48, 'exp_total': 14296, 'project_desc': 'PRJEB4337', '_version_': 1690804028888317952, 'taxid': 9606, 'source_name': 'lymph node', 'exp_Mcount': 7601.89}],
+        
+            "ovary": [{'id': 'metadata_9606_SAMEA2145245', 'gene': 3017, 'sample_id': 'SAMEA2145245', 'full_rpkm': 2.35675, 'exp_rpkm': 2.36, 'exp_total': 22516, 'project_desc': 'PRJEB4337', '_version_': 1690804028871540737, 'taxid': 9606, 'source_name': 'ovary', 'exp_Mcount': 7510.89}, {'id': 'metadata_9606_SAMEA2155371', 'gene': 3017, 'sample_id': 'SAMEA2155371', 'full_rpkm': 3.08173, 'exp_rpkm': 3.08, 'exp_total': 28007, 'project_desc': 'PRJEB4337', '_version_': 1690804028887269377, 'taxid': 9606, 'source_name': 'ovary', 'exp_Mcount': 7144.71}],
+        
+            "pancreas": [{'id': 'metadata_9606_SAMEA2151405', 'gene': 3017, 'sample_id': 'SAMEA2151405', 'full_rpkm': 0.425841, 'exp_rpkm': 0.426, 'exp_total': 4335, 'project_desc': 'PRJEB4337', '_version_': 1690804028882026497, 'taxid': 9606, 'source_name': 'pancreas', 'exp_Mcount': 8003.04}, {'id': 'metadata_9606_SAMEA2153347', 'gene': 3017, 'sample_id': 'SAMEA2153347', 'full_rpkm': 0.298931, 'exp_rpkm': 0.299, 'exp_total': 2464, 'project_desc': 'PRJEB4337', '_version_': 1690804028884123650, 'taxid': 9606, 'source_name': 'pancreas', 'exp_Mcount': 6480.12}],
+        
+            "placenta": [{'id': 'metadata_9606_SAMEA2142853', 'gene': 3017, 'sample_id': 'SAMEA2142853', 'full_rpkm': 3.93135, 'exp_rpkm': 3.93, 'exp_total': 33009, 'project_desc': 'PRJEB4337', '_version_': 1690804028867346433, 'taxid': 9606, 'source_name': 'placenta', 'exp_Mcount': 6600.9}, {'id': 'metadata_9606_SAMEA2149398', 'gene': 3017, 'sample_id': 'SAMEA2149398', 'full_rpkm': 2.22721, 'exp_rpkm': 2.23, 'exp_total': 17490, 'project_desc': 'PRJEB4337', '_version_': 1690804028879929346, 'taxid': 9606, 'source_name': 'placenta', 'exp_Mcount': 6173.65}, {'id': 'metadata_9606_SAMEA2153307', 'gene': 3017, 'sample_id': 'SAMEA2153307', 'full_rpkm': 1.12787, 'exp_rpkm': 1.13, 'exp_total': 10408, 'project_desc': 'PRJEB4337', '_version_': 1690804028884123649, 'taxid': 9606, 'source_name': 'placenta', 'exp_Mcount': 7254.72}, {'id': 'metadata_9606_SAMEA2162568', 'gene': 3017, 'sample_id': 'SAMEA2162568', 'full_rpkm': 3.83178, 'exp_rpkm': 3.83, 'exp_total': 28671, 'project_desc': 'PRJEB4337', '_version_': 1690804028894609410, 'taxid': 9606, 'source_name': 'placenta', 'exp_Mcount': 5882.41}],
+        
+            "prostate": [{'id': 'metadata_9606_SAMEA2153427', 'gene': 3017, 'sample_id': 'SAMEA2153427', 'full_rpkm': 24.4705, 'exp_rpkm': 24.5, 'exp_total': 115853, 'project_desc': 'PRJEB4337', '_version_': 1690804028884123651, 'taxid': 9606, 'source_name': 'prostate', 'exp_Mcount': 3722.01}, {'id': 'metadata_9606_SAMEA2155984', 'gene': 3017, 'sample_id': 'SAMEA2155984', 'full_rpkm': 18.6446, 'exp_rpkm': 18.6, 'exp_total': 105888, 'project_desc': 'PRJEB4337', '_version_': 1690804028889366528, 'taxid': 9606, 'source_name': 'prostate', 'exp_Mcount': 4464.85}, {'id': 'metadata_9606_SAMEA2159368', 'gene': 3017, 'sample_id': 'SAMEA2159368', 'full_rpkm': 18.1195, 'exp_rpkm': 18.1, 'exp_total': 74002, 'project_desc': 'PRJEB4337', '_version_': 1690804028891463682, 'taxid': 9606, 'source_name': 'prostate', 'exp_Mcount': 3210.77}, {'id': 'metadata_9606_SAMEA2162946', 'gene': 3017, 'sample_id': 'SAMEA2162946', 'full_rpkm': 9.94335, 'exp_rpkm': 9.94, 'exp_total': 41698, 'project_desc': 'PRJEB4337', '_version_': 1690804028895657986, 'taxid': 9606, 'source_name': 'prostate', 'exp_Mcount': 3296.82}],
+        
+            "salivary gland": [{'id': 'metadata_9606_SAMEA1968832', 'gene': 3017, 'sample_id': 'SAMEA1968832', 'full_rpkm': 0.701809, 'exp_rpkm': 0.702, 'exp_total': 8000, 'project_desc': 'PRJEB4337', '_version_': 1690804028863152129, 'taxid': 9606, 'source_name': 'salivary gland', 'exp_Mcount': 8961.56}, {'id': 'metadata_9606_SAMEA2150585', 'gene': 3017, 'sample_id': 'SAMEA2150585', 'full_rpkm': 0.929827, 'exp_rpkm': 0.93, 'exp_total': 8163, 'project_desc': 'PRJEB4337', '_version_': 1690804028880977921, 'taxid': 9606, 'source_name': 'salivary gland', 'exp_Mcount': 6901.77}, {'id': 'metadata_9606_SAMEA2151887', 'gene': 3017, 'sample_id': 'SAMEA2151887', 'full_rpkm': 2.33275, 'exp_rpkm': 2.33, 'exp_total': 22717, 'project_desc': 'PRJEB4337', '_version_': 1690804028882026499, 'taxid': 9606, 'source_name': 'salivary gland', 'exp_Mcount': 7655.89}],
+        
+            "skin": [{'id': 'metadata_9606_SAMEA2145893', 'gene': 3017, 'sample_id': 'SAMEA2145893', 'full_rpkm': 1.23763, 'exp_rpkm': 1.24, 'exp_total': 11295, 'project_desc': 'PRJEB4337', '_version_': 1690804028874686464, 'taxid': 9606, 'source_name': 'skin', 'exp_Mcount': 7174.8}, {'id': 'metadata_9606_SAMEA2147596', 'gene': 3017, 'sample_id': 'SAMEA2147596', 'full_rpkm': 1.15077, 'exp_rpkm': 1.15, 'exp_total': 8808, 'project_desc': 'PRJEB4337', '_version_': 1690804028877832193, 'taxid': 9606, 'source_name': 'skin', 'exp_Mcount': 6017.28}, {'id': 'metadata_9606_SAMEA2163623', 'gene': 3017, 'sample_id': 'SAMEA2163623', 'full_rpkm': 1.15561, 'exp_rpkm': 1.16, 'exp_total': 10152, 'project_desc': 'PRJEB4337', '_version_': 1690804028896706560, 'taxid': 9606, 'source_name': 'skin', 'exp_Mcount': 6906.4}],
+        
+            "small intestine": [{'id': 'metadata_9606_SAMEA2152474', 'gene': 3017, 'sample_id': 'SAMEA2152474', 'full_rpkm': 2.72655, 'exp_rpkm': 2.73, 'exp_total': 12551, 'project_desc': 'PRJEB4337', '_version_': 1690804028883075072, 'taxid': 9606, 'source_name': 'small intestine', 'exp_Mcount': 3618.91}, {'id': 'metadata_9606_SAMEA2153733', 'gene': 3017, 'sample_id': 'SAMEA2153733', 'full_rpkm': 3.67812, 'exp_rpkm': 3.68, 'exp_total': 21621, 'project_desc': 'PRJEB4337', '_version_': 1690804028885172224, 'taxid': 9606, 'source_name': 'small intestine', 'exp_Mcount': 4621.29}, {'id': 'metadata_9606_SAMEA2153932', 'gene': 3017, 'sample_id': 'SAMEA2153932', 'full_rpkm': 4.41082, 'exp_rpkm': 4.41, 'exp_total': 23487, 'project_desc': 'PRJEB4337', '_version_': 1690804028885172225, 'taxid': 9606, 'source_name': 'small intestine', 'exp_Mcount': 4186.22}, {'id': 'metadata_9606_SAMEA2161836', 'gene': 3017, 'sample_id': 'SAMEA2161836', 'full_rpkm': 1.38468, 'exp_rpkm': 1.38, 'exp_total': 6648, 'project_desc': 'PRJEB4337', '_version_': 1690804028893560832, 'taxid': 9606, 'source_name': 'small intestine', 'exp_Mcount': 3774.45}],
+        
+            "spleen": [{'id': 'metadata_9606_SAMEA2146236', 'gene': 3017, 'sample_id': 'SAMEA2146236', 'full_rpkm': 1.53784, 'exp_rpkm': 1.54, 'exp_total': 10893, 'project_desc': 'PRJEB4337', '_version_': 1690804028875735040, 'taxid': 9606, 'source_name': 'spleen', 'exp_Mcount': 5568.64}, {'id': 'metadata_9606_SAMEA2153031', 'gene': 3017, 'sample_id': 'SAMEA2153031', 'full_rpkm': 1.63, 'exp_rpkm': 1.63, 'exp_total': 11127, 'project_desc': 'PRJEB4337', '_version_': 1690804028884123648, 'taxid': 9606, 'source_name': 'spleen', 'exp_Mcount': 5366.66}, {'id': 'metadata_9606_SAMEA2155751', 'gene': 3017, 'sample_id': 'SAMEA2155751', 'full_rpkm': 1.60999, 'exp_rpkm': 1.61, 'exp_total': 10442, 'project_desc': 'PRJEB4337', '_version_': 1690804028888317953, 'taxid': 9606, 'source_name': 'spleen', 'exp_Mcount': 5098.85}, {'id': 'metadata_9606_SAMEA2159764', 'gene': 3017, 'sample_id': 'SAMEA2159764', 'full_rpkm': 3.01801, 'exp_rpkm': 3.02, 'exp_total': 19112, 'project_desc': 'PRJEB4337', '_version_': 1690804028892512256, 'taxid': 9606, 'source_name': 'spleen', 'exp_Mcount': 4978.5}],
+        
+            "stomach": [{'id': 'metadata_9606_SAMEA2142586', 'gene': 3017, 'sample_id': 'SAMEA2142586', 'full_rpkm': 8.22105, 'exp_rpkm': 8.22, 'exp_total': 45262, 'project_desc': 'PRJEB4337', '_version_': 1690804028866297856, 'taxid': 9606, 'source_name': 'stomach', 'exp_Mcount': 4328.32}, {'id': 'metadata_9606_SAMEA2154405', 'gene': 3017, 'sample_id': 'SAMEA2154405', 'full_rpkm': 6.84277, 'exp_rpkm': 6.84, 'exp_total': 55067, 'project_desc': 'PRJEB4337', '_version_': 1690804028886220803, 'taxid': 9606, 'source_name': 'stomach', 'exp_Mcount': 6326.63}, {'id': 'metadata_9606_SAMEA2157511', 'gene': 3017, 'sample_id': 'SAMEA2157511', 'full_rpkm': 3.46491, 'exp_rpkm': 3.46, 'exp_total': 21057, 'project_desc': 'PRJEB4337', '_version_': 1690804028890415105, 'taxid': 9606, 'source_name': 'stomach', 'exp_Mcount': 4777.68}],
+        
+            "testis": [{'id': 'metadata_9606_SAMEA1968968', 'gene': 3017, 'sample_id': 'SAMEA1968968', 'full_rpkm': 1.75925, 'exp_rpkm': 1.76, 'exp_total': 20522, 'project_desc': 'PRJEB4337', '_version_': 1690804028864200704, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 9170.77}, {'id': 'metadata_9606_SAMEA2148093', 'gene': 3017, 'sample_id': 'SAMEA2148093', 'full_rpkm': 1.92309, 'exp_rpkm': 1.92, 'exp_total': 17984, 'project_desc': 'PRJEB4337', '_version_': 1690804028878880769, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 7351.91}, {'id': 'metadata_9606_SAMEA2148874', 'gene': 3017, 'sample_id': 'SAMEA2148874', 'full_rpkm': 1.07082, 'exp_rpkm': 1.07, 'exp_total': 12126, 'project_desc': 'PRJEB4337', '_version_': 1690804028878880770, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 8902.57}, {'id': 'metadata_9606_SAMEA2149178', 'gene': 3017, 'sample_id': 'SAMEA2149178', 'full_rpkm': 2.84575, 'exp_rpkm': 2.85, 'exp_total': 11634, 'project_desc': 'PRJEB4337', '_version_': 1690804028879929345, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 3213.99}, {'id': 'metadata_9606_SAMEA2151119', 'gene': 3017, 'sample_id': 'SAMEA2151119', 'full_rpkm': 1.68839, 'exp_rpkm': 1.69, 'exp_total': 14601, 'project_desc': 'PRJEB4337', '_version_': 1690804028880977922, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 6798.66}, {'id': 'metadata_9606_SAMEA2158188', 'gene': 3017, 'sample_id': 'SAMEA2158188', 'full_rpkm': 1.88741, 'exp_rpkm': 1.89, 'exp_total': 16887, 'project_desc': 'PRJEB4337', '_version_': 1690804028890415106, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 7033.93}, {'id': 'metadata_9606_SAMEA2161674', 'gene': 3017, 'sample_id': 'SAMEA2161674', 'full_rpkm': 1.66372, 'exp_rpkm': 1.66, 'exp_total': 13822, 'project_desc': 'PRJEB4337', '_version_': 1690804028892512259, 'taxid': 9606, 'source_name': 'testis', 'exp_Mcount': 6531.37}],
+        
+            "thyroid": [{'id': 'metadata_9606_SAMEA2144120', 'gene': 3017, 'sample_id': 'SAMEA2144120', 'full_rpkm': 3.46831, 'exp_rpkm': 3.47, 'exp_total': 23340, 'project_desc': 'PRJEB4337', '_version_': 1690804028868395008, 'taxid': 9606, 'source_name': 'thyroid', 'exp_Mcount': 5290.49}, {'id': 'metadata_9606_SAMEA2145240', 'gene': 3017, 'sample_id': 'SAMEA2145240', 'full_rpkm': 1.85749, 'exp_rpkm': 1.86, 'exp_total': 14954, 'project_desc': 'PRJEB4337', '_version_': 1690804028871540736, 'taxid': 9606, 'source_name': 'thyroid', 'exp_Mcount': 6329.11}, {'id': 'metadata_9606_SAMEA2145313', 'gene': 3017, 'sample_id': 'SAMEA2145313', 'full_rpkm': 1.4806, 'exp_rpkm': 1.48, 'exp_total': 12893, 'project_desc': 'PRJEB4337', '_version_': 1690804028872589312, 'taxid': 9606, 'source_name': 'thyroid', 'exp_Mcount': 6845.88}, {'id': 'metadata_9606_SAMEA2159931', 'gene': 3017, 'sample_id': 'SAMEA2159931', 'full_rpkm': 1.3713, 'exp_rpkm': 1.37, 'exp_total': 16333, 'project_desc': 'PRJEB4337', '_version_': 1690804028892512258, 'taxid': 9606, 'source_name': 'thyroid', 'exp_Mcount': 9363.7}],
+        
+            "urinary bladder": [{'id': 'metadata_9606_SAMEA2144335', 'gene': 3017, 'sample_id': 'SAMEA2144335', 'full_rpkm': 2.55006, 'exp_rpkm': 2.55, 'exp_total': 20182, 'project_desc': 'PRJEB4337', '_version_': 1690804028869443584, 'taxid': 9606, 'source_name': 'urinary bladder', 'exp_Mcount': 6221.96}, {'id': 'metadata_9606_SAMEA2161920', 'gene': 3017, 'sample_id': 'SAMEA2161920', 'full_rpkm': 2.77479, 'exp_rpkm': 2.77, 'exp_total': 20680, 'project_desc': 'PRJEB4337', '_version_': 1690804028894609408, 'taxid': 9606, 'source_name': 'urinary bladder', 'exp_Mcount': 5859.13}],
+        
+    };
+</script>
+
+
+    <div>
+        
+
+        <select name="p" id="project-selector">
+        
+            
+                <option value="ERP003613" selected="selected" data-bioproject="PRJEB4337">HPA RNA-seq normal tissues</option>
+            
+        
+            
+                <option value="SRP056969" data-bioproject="PRJNA280600">RNA sequencing of total RNA from 20 human tissues</option>
+            
+        
+            
+                <option value="ERP000546" data-bioproject="PRJEB2445">Illumina bodyMap2 transcriptome</option>
+            
+        
+            
+                <option value="SRP051249" data-bioproject="PRJNA270632">Tissue-specific circular RNA induction during human fetal development</option>
+            
+        
+
+    </select>
+
+
+
+<ul id="project-summary">
+    <li id="project-summary-title">Project title: HPA RNA-seq normal tissues</li>
+    <li id="project-summary-desc">Description: RNA-seq was performed of tissue samples from 95 human individuals representing 27 different tissues in order to determine tissue-specificity of all protein-coding genes</li>
+    <li id="project-summary-bioprojects">BioProject: <a href="/bioproject/PRJEB4337/">PRJEB4337</a>
+    </li>
+    
+        <li id="project-summary-pubs">Publication:
+
+            
+                <span><a href="/pubmed/24309898/">PMID 24309898</a></span>
+            
+        </li>
+    
+
+    <li id="project-summary-analysis-date">Analysis date: Wed Apr  4 07:08:55 2018</li>
+
+</ul>
+
+
+
+        <div id="gene-expr-details" class="expression-chart"></div>
+
+    </div>
+</div>
+      </div>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+            google.charts.load('current', {
+            'packages':[ 'corechart']
+            });
+
+        </script>
+    </div>
+  </div>
+</div>
+
+
+        <div class="rprt-section gene-bibliography">
+    <section class="rprt-section-header" id="bibliography"><h2 id="header-bibliography"><a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-bibliography .rprt-section-body'"><span class="ui-ncbitoggler-master-text">Bibliography</span></a></h2><div class="rprt-section-tools"><a href="#top" title="Go to the top of the page" class="gene-top-page"><span>Go to the top of the page</span></a><a href="/books/NBK3841/#EntrezGene.Bibliography" title="Help" class="gene-section-help"><span>Help</span></a></div></section>
+
+    <div class="rprt-section-body" style="">
+        <div class="generif-pubmed">
+  <h3 id="relatedarticlesinpubmed">
+    <a href="#" class="jig-ncbitoggler-open">Related articles in PubMed</a>
+  </h3>
+  <div class="generefbl-link">
+    <ol class="generef-link">
+      <li>
+        <a href="/pubmed/33933143/" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=33933143">Epigenetic landscape of testis specific histone H2B variant and its influence on sperm function.</a>
+        <span class="pubmed-auth-date"> Patankar A, <em>et al</em>. Clin Epigenetics, 2021 May 1. PMID 33933143, <span class="pubmed-pmc-link"><a href="/pmc/articles/PMC8088685/" ref="ordinalpos=0&amp;ncbi_uid=3017&amp;link_uid=PMC8088685">Free PMC Article</a></span></span>
+      </li>
+      <li>
+        <a href="/pubmed/30981630/" ref="ordinalpos=2&amp;ncbi_uid=3017&amp;link_uid=30981630">Structural Basis of Dot1L Stimulation by Histone H2B Lysine 120 Ubiquitination.</a>
+        <span class="pubmed-auth-date"> Valencia-Sánchez MI, <em>et al</em>. Mol Cell, 2019 Jun 6. PMID 30981630, <span class="pubmed-pmc-link"><a href="/pmc/articles/PMC7009778/" ref="ordinalpos=0&amp;ncbi_uid=3017&amp;link_uid=PMC7009778">Free PMC Article</a></span></span>
+      </li>
+      <li>
+        <a href="/pubmed/16457587/" ref="ordinalpos=3&amp;ncbi_uid=3017&amp;link_uid=16457587">Gene-specific characterization of human histone H2B by electron capture dissociation.</a>
+        <span class="pubmed-auth-date"> Siuti N, <em>et al</em>. J Proteome Res, 2006 Feb. PMID 16457587</span>
+      </li>
+      <li>
+        <a href="/pubmed/9710638/" ref="ordinalpos=4&amp;ncbi_uid=3017&amp;link_uid=9710638">Core histones and HIRIP3, a novel histone-binding protein, directly interact with WD repeat protein HIRA.</a>
+        <span class="pubmed-auth-date"> Lorain S, <em>et al</em>. Mol Cell Biol, 1998 Sep. PMID 9710638, <span class="pubmed-pmc-link"><a href="/pmc/articles/PMC109139/" ref="ordinalpos=0&amp;ncbi_uid=3017&amp;link_uid=PMC109139">Free PMC Article</a></span></span>
+      </li>
+      <li>
+        <a href="/pubmed/1916825/" ref="ordinalpos=5&amp;ncbi_uid=3017&amp;link_uid=1916825">Isolation and characterization of two human H1 histone genes within clusters of core histone genes.</a>
+        <span class="pubmed-auth-date"> Albig W, <em>et al</em>. Genomics, 1991 Aug. PMID 1916825</span>
+      </li>
+    </ol>
+    <p class="see-all-pm">
+      <a href="/pubmed?LinkName=gene_pubmed&amp;from_uid=3017" title="See all 71 citations in Pubmed">See all (71) citations in PubMed</a>
+    </p>
+    <p class="see-all-pm">
+      <a href="/pubmed?LinkName=homologene_pubmed&amp;from_uid=134740">See citations in PubMed for homologs of this gene provided by HomoloGene</a>
+    </p>
+  </div>
+</div>
+
+        <div class="generif-pubmed generif">
+  <h3 id="generifsgenereferencesintofunctions">
+    <a href="#" class="jig-ncbitoggler-open">GeneRIFs: Gene References Into Functions</a>
+  </h3>
+  <div>
+    <a href="/gene/about-generif" class="whatisthis">What's a GeneRIF?</a>
+    <div class="generefbl-link">
+      <ol class="generef-link">
+        <li class="gene-rif-popper">
+          <a href="/pubmed/33933143" target="_blank" class="gene-rif-popper" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=33933143">Epigenetic landscape of testis specific histone H2B variant and its influence on sperm function.</a>
+          <div id="gene-popper1" class="gene-rif-popper">Title: Epigenetic landscape of testis specific histone H2B variant and its influence on sperm function.</div>
+        </li>
+        <li class="gene-rif-popper">
+          <a href="/pubmed/30981630" target="_blank" class="gene-rif-popper" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=30981630">We report cryo-EM structures of human Dot1L bound to (1) H2BK120Ub and (2) unmodified nucleosome substrates at 3.5 A and 4.9 A, respectively. Comparison of both structures, complemented with biochemical experiments, provides critical insights into the mechanism of Dot1L stimulation by H2BK120Ub.</a>
+          <div id="gene-popper2" class="gene-rif-popper">Title: Structural Basis of Dot1L Stimulation by Histone H2B Lysine 120 Ubiquitination.</div>
+        </li>
+      </ol>
+    </div>
+    <div class="submit-genrif">
+      <span>Submit:</span>
+      <a href="/gene/submit-generif/?geneId=3017&amp;sym=H2BC5&amp;name=H2B clustered histone 5&amp;org=Homo sapiens">New GeneRIF</a>
+      <a href="/RefSeq/update.cgi?geneid=3017&amp;symbol=H2BC5;task=fixpub">Correction</a>
+    </div>
+  </div>
+</div>
+
+    </div>
+</div>
+
+        <div class="rprt-section gene-phenotypes">
+  <section class="rprt-section-header" id="phenotypes">
+    <h2 id="header-phenotypes">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-phenotypes .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Phenotypes</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Phenotype" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body info-phenotype">
+    <p class="nochild-link">
+      <a href="/gtr/tests/?term=H2BC5[gene]">Find tests for this gene in the NIH Genetic Testing Registry (GTR)</a>
+    </p>
+    <p class="nochild-link">
+      <a href="/gap/PheGenI?tab=1&amp;gene=3017">Review eQTL and phenotype association data in this region using PheGenI</a>
+    </p>
+  </div>
+</div>
+
+        <div class="rprt-section gene-variation">
+  <section class="rprt-section-header" id="variation">
+    <h2 id="header-variation">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-variation .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Variation</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.variation" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <p class="nochild-link">
+      <a href="/variation/view/?q=3017[geneid]&amp;assm=GCF_000001405.25" ref="log$=recordlinks" data-genome-browser-link-sort="3" class="genome-browser-link" data-gblink-text="Variation Viewer (GRCh37.p13)">See Variation Viewer (GRCh37.p13)</a>
+    </p>
+    <set></set>
+    <set></set>
+  </div>
+</div>
+
+        <div class="rprt-section gene-HIV-1-interactions">
+  <section class="rprt-section-header" id="HIV-1-interactions">
+    <h2 id="header-HIV-1-interactions">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-HIV-1-interactions .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">HIV-1 interactions</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.HIV1_interactions" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <div class="fgrid">
+      <h3 id="proteininteractions">Protein interactions</h3>
+      <table summary="protein interactions" class="jig-ncbigrid">
+        <thead>
+          <tr>
+            <th id="hivprotein">Protein</th>
+            <th id="gene-hivprotein">Gene</th>
+            <th id="hivinter">Interaction</th>
+            <th id="hivpub">Pubs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td headers="hivprotein">
+              <a href="/protein/9629359">Rev</a>
+            </td>
+            <td headers="gene-hivprotein">
+              <a href="/gene/155908">rev</a>
+            </td>
+            <td headers="hivinter">HIV-1 Rev interacting protein, histone cluster 1, H2bd, is identified by the in-vitro binding experiments involving cytosolic or nuclear extracts from HeLa cells</td>
+            <td headers="hivpub">
+              <a title="PubMed Id(s): 22174317" href="/pubmed/22174317">PubMed</a>
+            </td>
+          </tr>
+          <tr>
+            <td headers="hivprotein">
+              <a href="/protein/9629358">Tat</a>
+            </td>
+            <td headers="gene-hivprotein">
+              <a href="/gene/155871">tat</a>
+            </td>
+            <td headers="hivinter">HIV-1 Tat peptides bind core histones H2A, H2B, H3 and H4, and Tat protein recruits histone acetyltransferases to the HIV-1 LTR promoter leading to acetylation of histones H3 and H4, derepressing chromatin structure and increasing NFkappaB responsiveness</td>
+            <td headers="hivpub">
+              <a title="PubMed Id(s): 14657027,11689053,11080476,9566873" href="/pubmed/14657027,11689053,11080476,9566873">PubMed</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="withnote">
+        <a class="note" href="/genome/viruses/retroviruses/hiv-1/interactions/">Go to the HIV-1, Human Interaction Database </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+        
+        
+        <div class="rprt-section gene-interactions">
+  <section class="rprt-section-header" id="interactions">
+    <h2 id="header-interactions">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-interactions .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Interactions</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Interactions" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <table summary="Gene Interaction" class="jig-ncbiservergrid" data-jigconfig="webservice:'/gene/3017/data/interaction/',webserviceParams: 'p$l=Ajax&amp;p$debugoutput=off', isServersideLoad:true, isServersidePaging: true,isServersidePagingCached: true,pageSize:25">
+      <thead>
+        <tr>
+          <th id="inter-prod">Products</th>
+          <th id="inter-interactant">Interactant</th>
+          <th id="inter-otherGene">Other Gene</th>
+          <th id="inter-compl">Complex</th>
+          <th id="inter-source">Source</th>
+          <th id="inter-pubs">Pubs</th>
+          <th id="inter-desc">Description</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+
+        <div class="rprt-section gene-general-gene-info">
+    <section class="rprt-section-header" id="general-gene-info">
+  <h2 id="header-general-gene-info">
+    <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-general-gene-info .rprt-section-body'">
+      <span class="ui-ncbitoggler-master-text">General gene information</span>
+    </a>
+  </h2>
+  <div class="rprt-section-tools">
+    <a href="#top" title="Go to the top of the page" class="gene-top-page">
+      <span>Go to the top of the page</span>
+    </a>
+    <a href="/books/NBK3841/#EntrezGene.General_Gene_Information" title="Help" class="gene-section-help">
+      <span>Help</span>
+    </a>
+  </div>
+</section>
+
+    <div class="rprt-section-body" style="">
+        <div id="gene-markers">
+  <h3 id="markers">
+    <a class="jig-ncbitoggler">Markers</a>
+  </h3>
+  <div>
+    <ul class="marker odd">
+      <li class="marker">STS-N33927 (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=9799%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=9799">UniSTS:9799</a></li></ul></li>
+    </ul>
+    <ul class="marker ">
+      <li class="marker">RH47386 (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=39754%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=39754">UniSTS:39754</a></li></ul></li>
+    </ul>
+    <ul class="marker odd">
+      <li class="marker">D6S2372 (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=57679%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=57679">UniSTS:57679</a></li></ul></li>
+    </ul>
+    <ul class="marker ">
+      <li class="marker">NoName (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=482908%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=482908">UniSTS:482908</a></li></ul></li>
+    </ul>
+    <ul class="marker odd">
+      <li class="marker">RH69154 (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=52890%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=52890">UniSTS:52890</a></li></ul></li>
+    </ul>
+    <ul class="marker ">
+      <li class="marker">D12S1124 (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=150204%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=150204">UniSTS:150204</a></li></ul></li>
+    </ul>
+    <ul class="marker odd">
+      <li class="marker">RH80280 (e-PCR)<ul class="marker-link"><li><a href="https://www.ncbi.nlm.nih.gov/probe?term=91615%20%5BUniSTS%20ID%5D" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=91615">UniSTS:91615</a></li></ul></li>
+    </ul>
+  </div>
+</div>
+
+        
+        <div></div>
+
+        <div class="infosec">
+  <h3 id="homology">
+    <a class="jig-ncbitoggler-open">Homology</a>
+  </h3>
+  <ul class="geneinfo-subsec">
+    <li><a href="/sites/homologene/134740" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=134740">Homologs of the H2BC5 gene</a>: The H2BC5 gene is conserved in chimpanzee, Rhesus monkey, dog, cow, mouse, and rat.</li>
+    <li><a href="/gene/?Term=ortholog_gene_3017[group]">Orthologs from Annotation Pipeline</a>: 6 organisms have orthologs with human gene H2BC5</li>
+    <li>
+      <a target="_blank" href="https://www.orthodb.org/?ncbi=1&amp;query=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8178">
+        <span>Orthologs</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+        <!--<component id="Gene_InfoPathway"/>-->
+        
+        <div class="infosec info-comment" id="info-comment">
+  <h3 id="CloneNames">
+    <a class="jig-ncbitoggler-open">Clone Names</a>
+  </h3>
+  <ul class="geneinfo-subsec">
+    <li>MGC90432 </li>
+  </ul>
+</div>
+
+        <div class="gene-ontology infosec">
+  <h3 id="gene-ontology">
+    <a class="jig-ncbitoggler-open">
+      <span>Gene Ontology</span>
+    </a>
+    <a target="_blank" href="http://www.ebi.ac.uk/GOA/" class="g-ontology-src" title="Provided by GOA">Provided by GOA</a>
+  </h3>
+  <div class="ontology-tables">
+    <div class="ui-ncbigrid-outer-div">
+      <div class="ui-ncbigrid-inner-div">
+        <table class="jig-ncbigrid" data-jigconfig="isPageable: true, pageSize : 25, isSortable: true, columnTypes: ['str', 'str', 'str']">
+          <thead>
+            <tr>
+              <th class="col1">Function</th>
+              <th style="width:12%;">Evidence Code</th>
+              <th style="width:10%;">Pubs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="ont-func">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0003677">enables DNA binding</a>
+              </td>
+              <td headers="ont-evi- ont-evi-code-">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-1-0', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IBA</a>
+                <div id="evidence-code-1-0" class="ecode">Inferred from Biological aspect of Ancestor<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi- ont-pub-"><a href="/pubmed/21873635" target="_blank" title="PubMed ID 21873635" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=21873635">PubMed</a> </td>
+            </tr>
+            <tr>
+              <td headers="ont-func">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0003674">enables molecular_function</a>
+              </td>
+              <td headers="ont-evi- ont-evi-code-">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-2-0', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> ND</a>
+                <div id="evidence-code-2-0" class="ecode">No biological Data available<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi- ont-pub-"> </td>
+            </tr>
+            <tr>
+              <td headers="ont-func">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0005515">enables protein binding</a>
+              </td>
+              <td headers="ont-evi- ont-evi-code-">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-3-0', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IPI</a>
+                <div id="evidence-code-3-0" class="ecode">Inferred from Physical Interaction<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi- ont-pub-"><a href="/pubmed/28514442,30021884" target="_blank" title="PubMed ID 28514442,30021884" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=28514442,30021884">PubMed</a> </td>
+            </tr>
+            <tr>
+              <td headers="ont-func">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0046982">enables protein heterodimerization activity</a>
+              </td>
+              <td headers="ont-evi- ont-evi-code-">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-4-0', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IEA</a>
+                <div id="evidence-code-4-0" class="ecode">Inferred from Electronic Annotation<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi- ont-pub-"> </td>
+            </tr>
+            <tr>
+              <td headers="ont-func">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0030527">enables structural constituent of chromatin</a>
+              </td>
+              <td headers="ont-evi- ont-evi-code-">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-5-0', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IEA</a>
+                <div id="evidence-code-5-0" class="ecode">Inferred from Electronic Annotation<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi- ont-pub-"> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="ui-ncbigrid-outer-div">
+      <div class="ui-ncbigrid-inner-div">
+        <table class="jig-ncbigrid" data-jigconfig="isPageable: true, pageSize : 25, isSortable: true, columnTypes: ['str', 'str', 'str']">
+          <thead>
+            <tr>
+              <th class="col1">Process</th>
+              <th style="width:12%;">Evidence Code</th>
+              <th style="width:10%;">Pubs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="ont-comp">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0006334">involved_in nucleosome assembly</a>
+              </td>
+              <td headers="ont-evi-2 ont-evi-code-2">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-1-1', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IBA</a>
+                <div id="evidence-code-1-1" class="ecode">Inferred from Biological aspect of Ancestor<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi-2 ont-pub-2"><a href="/pubmed/21873635" target="_blank" title="PubMed ID 21873635" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=21873635">PubMed</a> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="ui-ncbigrid-outer-div">
+      <div class="ui-ncbigrid-inner-div">
+        <table class="jig-ncbigrid" data-config="isPageable: true, pageSize : 25, isSortable: true, columnTypes: ['str', 'str', 'str']">
+          <thead>
+            <tr>
+              <th class="col1">Component</th>
+              <th style="width:12%;">Evidence Code</th>
+              <th style="width:10%;">Pubs</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0005829">located_in cytosol</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-1-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IDA</a>
+                <div id="evidence-code-1-2" class="ecode">Inferred from Direct Assay<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"> </td>
+            </tr>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0070062">located_in extracellular exosome</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-2-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> HDA</a>
+                <div id="evidence-code-2-2" class="ecode">
+                  <br />
+                  <a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a>
+                </div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"><a href="/pubmed/20458337" target="_blank" title="PubMed ID 20458337" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=20458337">PubMed</a> </td>
+            </tr>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0005654">located_in nucleoplasm</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-3-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IDA</a>
+                <div id="evidence-code-3-2" class="ecode">Inferred from Direct Assay<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"> </td>
+            </tr>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0005654">located_in nucleoplasm</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-4-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> TAS</a>
+                <div id="evidence-code-4-2" class="ecode">Traceable Author Statement<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"> </td>
+            </tr>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0000786">part_of nucleosome</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-5-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IEA</a>
+                <div id="evidence-code-5-2" class="ecode">Inferred from Electronic Annotation<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"> </td>
+            </tr>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0005634">located_in nucleus</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-6-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> HDA</a>
+                <div id="evidence-code-6-2" class="ecode">
+                  <br />
+                  <a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a>
+                </div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"><a href="/pubmed/21630459" target="_blank" title="PubMed ID 21630459" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=21630459">PubMed</a> </td>
+            </tr>
+            <tr>
+              <td headers="ont-proc">
+                <a href="http://amigo.geneontology.org/amigo/term/GO:0005634">located_in nucleus</a>
+              </td>
+              <td headers="ont-evi-3 ont-evi-code-3">
+                <a class="jig-ncbipopper" href="http://geneontology.org/docs/guide-go-evidence-codes/" data-jigconfig="destSelector: '#evidence-code-7-2', hasArrow: true, openAnimation: 'none', closeAnimation: 'none', adjustFit: 'autoAdjust', triggerPosition: 'center right', destPosition: 'center left'"> IDA</a>
+                <div id="evidence-code-7-2" class="ecode">Inferred from Direct Assay<br /><a href="http://geneontology.org/docs/guide-go-evidence-codes/">more info</a></div>
+              </td>
+              <td headers="ont-evi-3 ont-pub-3"><a href="/pubmed/16319397" target="_blank" title="PubMed ID 16319397" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=16319397">PubMed</a> </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+</div>
+
+        <div class="rprt-section gene-general-protein-info">
+  <section class="rprt-section-header" id="general-protein-info">
+    <h2 id="header-general-protein-info">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-general-protein-info .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">General protein information</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.General_Protein_Information" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <dl>
+      <dt>Preferred Names</dt>
+      <dd>histone H2B type 1-D</dd>
+    </dl>
+    <dl>
+      <dt>Names</dt>
+      <dd>H2B histone family, member B</dd>
+      <dd>HIRA-interacting protein 2</dd>
+      <dd>Histone H2B type 1-C/E/F/G/I</dd>
+      <dd>Histone H2B.1 A</dd>
+      <dd>Histone H2B.a</dd>
+      <dd>Histone H2B.g</dd>
+      <dd>Histone H2B.h</dd>
+      <dd>Histone H2B.k</dd>
+      <dd>Histone H2B.l</dd>
+      <dd>histone 1, H2bd</dd>
+      <dd>histone H2B.1 B</dd>
+      <dd>histone H2B.b</dd>
+      <dd>histone cluster 1 H2B family member d</dd>
+      <dd>histone cluster 1, H2bd</dd>
+    </dl>
+  </div>
+</div>
+
+        <div class="rprt-section gene-reference-sequences">
+  <section class="rprt-section-header" id="reference-sequences">
+    <h2 id="header-reference-sequences">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-reference-sequences .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">NCBI Reference Sequences (RefSeq)</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.NCBI_Reference_Sequences_RefS" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <p>
+      <span class="new-icon">NEW</span>
+      <strong>Try the new <a href="/datasets/tables/genes/?table_type=transcripts&amp;ids=3017&amp;utm_source=gene&amp;utm_medium=referral&amp;utm_campaign=refseq" title="View selected attributes for an input list of genes and download datasets containing genomic, transcript and protein sequences along with a detailed data report." data-ga-category="refseq" data-ga-action="click_datasets_link" data-ga-label="transcript_table">Transcript table</a></strong>
+    </p>
+    <h3 class="genomerefseqs gene_std_toggler" id="refseqset-independent">
+      <a class="jig-ncbitoggler-open">RefSeqs maintained independently of Annotated
+            Genomes</a>
+    </h3>
+    <div class="genomerefseqs_slave">
+      <p class="desc"> These reference sequences exist independently of genome builds. <a href="#refseq-expl" id="expl-refseg">Explain</a></p>
+      <p id="refseq-expl"> These reference sequences are curated independently of the genome
+                annotation cycle, so their versions may not match the RefSeq versions in the current
+                genome build. Identify version mismatches by comparing the version of the RefSeq in
+                this section to the one reported in <a href="#geneGenomic regions, transcripts, and products">Genomic regions,
+                    transcripts, and products</a> above. </p>
+      <h4 id="mrnaandproteins-1995391">mRNA and Protein(s) </h4>
+      <ol>
+        <li>
+          <p><a href="/nuccore/NM_021063.4">NM_021063.4</a> → <a href="/protein/NP_066407.1">NP_066407.1</a>  histone H2B type 1-D</p>
+          <p>
+            <a href="/ipg/NP_066407.1/" ref="ncbi_uid=3017">See identical proteins and their annotated locations for NP_066407.1</a>
+          </p>
+          <p style="background:#fff; margin-top:1em;">Status: REVIEWED</p>
+          <dl>
+            <dt>Description</dt>
+            <dd>Transcript Variant: This variant (1) contains a palindromic termination sequence instead of a polyA signal and tail. Variants 1 and 2 encode the same protein.</dd>
+            <dt>Source sequence(s)</dt>
+            <dd class="wordwrap">
+              <a href="/nuccore/AL353759">AL353759</a>
+            </dd>
+            <dt>Consensus CDS</dt>
+            <dd>
+              <a href="/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&amp;GO=MainBrowse&amp;DATA=CCDS4587.1">CCDS4587.1</a>
+            </dd>
+            <dt>UniProtKB/Swiss-Prot</dt>
+            <dd><a href="https://www.uniprot.org/uniprot/P58876" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">P58876</a>, <a href="https://www.uniprot.org/uniprot/P62807" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">P62807</a></dd>
+            <dt>UniProtKB/TrEMBL</dt>
+            <dd>
+              <a href="https://www.uniprot.org/uniprot/A0A024QZZ7" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">A0A024QZZ7</a>
+            </dd>
+            <dt>Related</dt>
+            <dd><a href="http://www.ensembl.org/id/ENSP00000367008.4" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">ENSP00000367008.4</a>, <a href="http://www.ensembl.org/id/ENST00000377777.6" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">ENST00000377777.6</a></dd>
+            <dt class="clear"> Conserved Domains (1) <a href="/Structure/cdd/wrpsb.cgi?seqinput=NP_066407.1">summary</a></dt>
+            <dd>
+              <dl class="level2">
+                <dt><a href="/Structure/cdd/cddsrv.cgi?uid=197718">smart00427</a><br /><span class="cddlocation">Location:</span><span class="cddfrom">28</span> → <span class="cddto">124</span></dt>
+                <dd class="clearfix"> H2B; Histone H2B</dd>
+              </dl>
+            </dd>
+          </dl>
+        </li>
+        <li>
+          <p><a href="/nuccore/NM_138720.2">NM_138720.2</a> → <a href="/protein/NP_619790.1">NP_619790.1</a>  histone H2B type 1-D</p>
+          <p>
+            <a href="/ipg/NP_619790.1/" ref="ncbi_uid=3017">See identical proteins and their annotated locations for NP_619790.1</a>
+          </p>
+          <p style="background:#fff; margin-top:1em;">Status: REVIEWED</p>
+          <dl>
+            <dt>Description</dt>
+            <dd>Transcript Variant: This variant (2) differs from variant 1 in its 3' UTR which contains a polyA signal and site. Variants 1 and 2 encode the same protein.</dd>
+            <dt>Source sequence(s)</dt>
+            <dd class="wordwrap">
+              <a href="/nuccore/BC002842, BM153714">BC002842, BM153714</a>
+            </dd>
+            <dt>Consensus CDS</dt>
+            <dd>
+              <a href="/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&amp;GO=MainBrowse&amp;DATA=CCDS4587.1">CCDS4587.1</a>
+            </dd>
+            <dt>UniProtKB/Swiss-Prot</dt>
+            <dd>
+              <a href="https://www.uniprot.org/uniprot/P58876" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">P58876</a>
+            </dd>
+            <dt>UniProtKB/TrEMBL</dt>
+            <dd>
+              <a href="https://www.uniprot.org/uniprot/A0A024QZZ7" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">A0A024QZZ7</a>
+            </dd>
+            <dt>Related</dt>
+            <dd><a href="http://www.ensembl.org/id/ENSP00000289316.2" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">ENSP00000289316.2</a>, <a href="http://www.ensembl.org/id/ENST00000289316.2" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">ENST00000289316.2</a></dd>
+            <dt class="clear"> Conserved Domains (1) <a href="/Structure/cdd/wrpsb.cgi?seqinput=NP_619790.1">summary</a></dt>
+            <dd>
+              <dl class="level2">
+                <dt><a href="/Structure/cdd/cddsrv.cgi?uid=197718">smart00427</a><br /><span class="cddlocation">Location:</span><span class="cddfrom">28</span> → <span class="cddto">124</span></dt>
+                <dd class="clearfix"> H2B; Histone H2B</dd>
+              </dl>
+            </dd>
+          </dl>
+        </li>
+      </ol>
+    </div>
+    <h3 class="genomerefseqs gene_std_toggler" id="annotatedrefseq-title">
+      <a class="jig-ncbitoggler-open url-release-annot-holder">RefSeqs of Annotated Genomes: Homo sapiens Annotation Release 110</a>
+      <span>
+        <a href="/genome/annotation_euk/Homo_sapiens/110/" target="_blank">details...<img src="/portal/portal3rc.fcgi/4084921/img/3535811" style="margin-left:5px;" alt="Open this link in a new tab" /></a>
+      </span>
+    </h3>
+    <div class="genomerefseqs_slave">
+      <p class="desc"> The following sections contain reference sequences that belong to a
+                specific genome build. <a href="#" id="expl-genomes">Explain</a></p>
+      <p id="expl-genomes-desc" style="display:none">This section includes genomic Reference
+                Sequences (RefSeqs) from all assemblies on which this gene is annotated, such as
+                RefSeqs for chromosomes and scaffolds (contigs) from both reference and alternate
+                assemblies. Model RNAs and proteins are also reported here.</p>
+      <h3 id="refseq-sequencedescription-1995517">Reference GRCh38.p14 Primary Assembly</h3>
+      <h4 id="genomic-1995517">Genomic </h4>
+      <ol>
+        <li>
+          <p>NC_000006.12 Reference GRCh38.p14 Primary Assembly</p>
+          <dl>
+            <dt>Range</dt>
+            <dd class="rs-range">
+              <span>26158121..26171349</span>
+            </dd>
+            <dt>Download</dt>
+            <dd><a href="/nuccore/NC_000006.12?from=26158121&amp;to=26171349&amp;report=genbank" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_000006.12?from=26158121&amp;to=26171349&amp;report=genbank">GenBank</a>, <a href="/nuccore/NC_000006.12?from=26158121&amp;to=26171349&amp;report=fasta" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_000006.12?from=26158121&amp;to=26171349&amp;report=fasta">FASTA</a>, <a href="/nuccore/NC_000006.12?from=26156136&amp;to=26173332&amp;report=graph&amp;content=5" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_000006.12?from=26156136&amp;to=26173332&amp;report=graph&amp;content=5">Sequence Viewer (Graphics)</a></dd>
+          </dl>
+        </li>
+      </ol>
+      <h4 id="mrnaandproteins-1936862">mRNA and Protein(s) </h4>
+      <ol>
+        <li>
+          <p><a href="/nuccore/XM_005249039.5">XM_005249039.5</a> → <a href="/protein/XP_005249096.2">XP_005249096.2</a>  histone H2B type 1-D isoform X1</p>
+          <dl>
+            <dt>UniProtKB/Swiss-Prot</dt>
+            <dd>
+              <a href="https://www.uniprot.org/uniprot/P58876" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">P58876</a>
+            </dd>
+            <dt>UniProtKB/TrEMBL</dt>
+            <dd>
+              <a href="https://www.uniprot.org/uniprot/A0A024QZZ7" ref="itool=Gene_FullReport&amp;PrId=5380&amp;uid=3017&amp;nlmid=&amp;db=gene">A0A024QZZ7</a>
+            </dd>
+          </dl>
+        </li>
+      </ol>
+      <h3 id="refseq-sequencedescription-1987997">Alternate T2T-CHM13v2.0</h3>
+      <h4 id="genomic-1987997">Genomic </h4>
+      <ol>
+        <li>
+          <p>NC_060930.1 Alternate T2T-CHM13v2.0</p>
+          <dl>
+            <dt>Range</dt>
+            <dd class="rs-range">
+              <span>26026257..26039486</span>
+            </dd>
+            <dt>Download</dt>
+            <dd><a href="/nuccore/NC_060930.1?from=26026257&amp;to=26039486&amp;report=genbank" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_060930.1?from=26026257&amp;to=26039486&amp;report=genbank">GenBank</a>, <a href="/nuccore/NC_060930.1?from=26026257&amp;to=26039486&amp;report=fasta" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_060930.1?from=26026257&amp;to=26039486&amp;report=fasta">FASTA</a>, <a href="/nuccore/NC_060930.1?from=26024272&amp;to=26041469&amp;report=graph&amp;content=5" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=NC_060930.1?from=26024272&amp;to=26041469&amp;report=graph&amp;content=5">Sequence Viewer (Graphics)</a></dd>
+          </dl>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+
+        <div class="rprt-section gene-related-sequences">
+  <section class="rprt-section-header" id="related-sequences">
+    <h2 id="header-related-sequences">
+      <a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-related-sequences .rprt-section-body'">
+        <span class="ui-ncbitoggler-master-text">Related sequences</span>
+      </a>
+    </h2>
+    <div class="rprt-section-tools">
+      <a href="#top" title="Go to the top of the page" class="gene-top-page">
+        <span>Go to the top of the page</span>
+      </a>
+      <a href="/books/NBK3841/#EntrezGene.Related_Sequences" title="Help" class="gene-section-help">
+        <span>Help</span>
+      </a>
+    </div>
+  </section>
+  <div class="rprt-section-body">
+    <div>
+      <table id="proteinTblId" class="jig-ncbiservergrid" data-jigconfig="webservice:'/gene/3017/data/related-sequences/',webserviceParams: 'p$l=Ajax', isServersideLoad:true, isServersidePaging: true,isServersidePagingCached: true,pageSize:25">
+        <thead>
+          <tr>
+            <th colspan="2" id="rs-nucleo">Nucleotide</th>
+            <th rowspan="2" id="rs-protein">Protein</th>
+          </tr>
+          <tr>
+            <th id="rs-heading">Heading</th>
+            <th id="rs-heading-acc">Accession and Version</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <table id="proteinTblId" class="jig-ncbigrid" data-jigconfig="isPageable:true, pageSize:25">
+        <thead>
+          <tr>
+            <th class="proteinTblTh" rowspan="2" id="rs-prot-acc">Protein Accession</th>
+            <th class="proteinTblTh" colspan="2" id="rs-link">Links</th>
+          </tr>
+          <tr>
+            <th id="rs-genepept">GenPept Link</th>
+            <th id="rs-uniprot">UniProtKB Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td headers="rs-prot-acc">P58876.2</td>
+            <td headers="rs-link rs-genepept">
+              <a href="/protein/21542074" ref="ordinalpos=1&amp;ncbi_uid=3017&amp;link_uid=21542074">GenPept</a>
+            </td>
+            <td>
+              <a href="https://www.uniprot.org/uniprot/P58876">UniProtKB/Swiss-Prot:P58876</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+        <div class="rprt-section gene-additional-links">
+
+    <section class="rprt-section-header" id="additional-links"><h2 id="header-additional-links"><a href="#" class="jig-ncbitoggler-open" data-jigconfig="targets: '.gene-additional-links .rprt-section-body'"><span class="ui-ncbitoggler-master-text">Additional links</span></a></h2><div class="rprt-section-tools"><a href="#top" title="Go to the top of the page" class="gene-top-page"><span>Go to the top of the page</span></a><a href="/books/NBK3841/#EntrezGene.Additional_Links" title="Help" class="gene-section-help"><span>Help</span></a></div></section>
+
+    <div class="rprt-section-body" style="">
+        
+        
+        <h3 class="withnote" id="genelinkout">
+  <a class="jig-ncbitoggler">Gene LinkOut</a>
+</h3><div>
+  <p>The following <a href="https://www.ncbi.nlm.nih.gov/projects/linkout/index.html">LinkOut</a> resources are supplied by external providers. These providers are responsible for maintaining the links. </p>
+  <div>
+    <div class="linkout">
+      <a class="jig-ncbitoggler-open main">
+        <span>Chemical Information</span>
+      </a>
+      <ul>
+        <li><span class="free-rsc"></span>Interologous Interaction Database</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://ophid.utoronto.ca/redirect/ncbi/human?proteins=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7911">
+              <span>Interologous Interaction Database</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>MilliporeSigma</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.sigmaaldrich.com/catalog/genes/HIST1H2BD?lang=en&amp;region=US" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=9978">
+              <span>Hist1h2bd products</span>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <div class="linkout">
+      <a class="jig-ncbitoggler-open main">
+        <span>Molecular Biology Databases</span>
+      </a>
+      <ul>
+        <li><span class="free-rsc"></span>Bgee database</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://bgee.org/bgee15_0/gene/ENSG00000158373" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=10418">
+              <span>H2BC5 gene expression</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>BioGPS</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://biogps.org/gene/3017/" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5059">
+              <span>BioGPS</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>BioGRID Open Repository of CRISPR Screens (ORCS)</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://orcs.thebiogrid.org/Gene/3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=10164">
+              <span>BioGRID CRISPR Screen Phenotypes (141 hits/1098 screens)</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>CREB Target Gene Database</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://natural.salk.edu/cgi-bin/creb?DB=human&amp;TABLE=Human_CRE_prediction&amp;FIELD=LocusLink&amp;QUERY=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5380">
+              <span>CREB Target Gene Database</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span><span class="regis-rsc"></span>Creative Biogene</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.creative-biogene.com/genesearch/HIST1H2BD.html" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=10094">
+              <span>Homo sapiens histone cluster 1, H2bd DNA.</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Eukaryotic Promoter Database</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://epd.vital-it.ch/cgi-bin/get_doc?db=hgEpdNew&amp;format=genome&amp;entry=HIST1H2BD_1" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=9624">
+              <span>HIST1H2BD_1</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>GenScript latest version of gene cDNA ORF Clone</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.genscript.com/gene/3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8012">
+              <span>GenScript latest version of gene cDNA ORF Clone</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>GeneNetwork</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.genenetwork.org/webqtl/WebQTL.py?cmd=sch&amp;geneid=3017&amp;species=human" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5746">
+              <span>Records for gene expression in Human</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Genevisible</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://genevisible.com/tissues/HS/Gene%20Symbol/HIST1H2BD" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7557">
+              <span>HIST1H2BD</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>GlyGen glycoinformatics resource</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://glygen.org/protein/P62807" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=10227">
+              <span>GlyGen glycoinformatics resource</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://glygen.org/protein/P58876" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=10227">
+              <span>GlyGen glycoinformatics resource</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Human eFP Browser</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://bar.utoronto.ca/efp_human/cgi-bin/efpWeb.cgi?dataSource=Nervous&amp;modeInput=Absolute&amp;primaryGene=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8875">
+              <span>Human eFP Browser</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://bar.utoronto.ca/efp_human/cgi-bin/efpWeb.cgi?dataSource=Skeletal_Immune_Digestive&amp;modeInput=Absolute&amp;primaryGene=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8875">
+              <span>Human eFP Browser</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://bar.utoronto.ca/efp_human/cgi-bin/efpWeb.cgi?dataSource=Reproductive&amp;modeInput=Absolute&amp;primaryGene=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8875">
+              <span>Human eFP Browser</span>
+            </a>
+          </li>
+        </ul>
+        <li>Ingenuity Pathways Analysis</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://partnersolution.ingenuity.com/?cid=97ae3f91eab87a&amp;p1=Entrez&amp;p2=GV&amp;s=&amp;ipaUri=%2Fpa%2Fapi%2Fv2%2Fgeneview%3Fapplicationname%3DEntrez%26geneId%3D3017%26geneidtype%3Dentrezgene" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5628">
+              <span>Ingenuity Pathways Analysis</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>InnateDB</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.innatedb.com/getGeneCard.do?id=68028" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7894">
+              <span>InnateDB</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.innatedb.com/getGeneCard.do?id=69000" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7894">
+              <span>InnateDB</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.innatedb.com/getGeneCard.do?id=67850" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7894">
+              <span>InnateDB</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>InterMine</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.humanmine.org/humanmine/portal.do?class=Gene&amp;externalids=ENSG00000158373" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=9169">
+              <span>InterMine</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Kyoto Encyclopedia of Genes and Genomes</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.genome.jp/dbget-bin/www_bget?hsa:3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5174">
+              <span>Kyoto Encyclopedia of Genes and Genomes</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>OMA Browser: Orthologous MAtrix</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://omabrowser.org/oma/info/HUMAN24616/" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=9822">
+              <span>OMA Browser: Orthologous MAtrix</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>OrthoDB catalog of orthologs</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.orthodb.org/?ncbi=1&amp;query=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8178">
+              <span>Orthologs</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>PANTHER Classification System</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.pantherdb.org/genes/gene.do?acc=HUMAN|HGNC=4746|UniProtKB=P62807" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4118">
+              <span>Gene Information</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.pantherdb.org/genes/gene.do?acc=HUMAN|HGNC=4757|UniProtKB=P62807" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4118">
+              <span>Gene Information</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="http://www.pantherdb.org/genes/gene.do?acc=HUMAN|HGNC=4752|UniProtKB=P62807" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4118">
+              <span>Gene Information</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>PhosphoSitePlus</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.phosphosite.org/entrezGeneIdAction.action?id=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7987">
+              <span>PhosphoSitePlus® - comprehensive post-translational modification resource</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Protein Ontology Consortium</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://purl.obolibrary.org/obo/PR_P58876" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7576">
+              <span>Protein Ontology Consortium</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>The Gene Wiki</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/HIST1H2BD" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=6933">
+              <span>The Gene Wiki</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>The Weizmann Institute of Science GeneCards and MalaCards databases</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.genecards.org/cgi-bin/carddisp.pl?gene=H2BC5" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8598">
+              <span>GeneCard for H2BC5</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Vertebrate Genome Annotation (VEGA) database</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://vega.sanger.ac.uk/Homo_sapiens/geneview?db=core&amp;gene=OTTHUMG00000014426" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4833">
+              <span>Vertebrate Genome Annotation (VEGA) database</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>iRefWeb - iRefIndex release 9.0 - Consolidated Interactome</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://wodaklab.org/iRefWeb/interactor/showForGene/3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7847">
+              <span>iRefWeb - iRefIndex release 9.0 - Consolidated Interactome</span>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <div class="linkout">
+      <a class="jig-ncbitoggler-open main">
+        <span>Research Materials</span>
+      </a>
+      <ul>
+        <li><span class="order-rsc"></span>Addgene Non-profit plasmid repository</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://addgene.org//browse/gene/3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5304">
+              <span>Get Plasmids - Addgene</span>
+            </a>
+          </li>
+        </ul>
+        <li>ExactAntigen/Labome</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.labome.com/gene/human/HIST1H2BD-antibody.html" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=5753">
+              <span>reagents</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>GeneCopoeia Inc.</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.genecopoeia.com/product/search/result.php?prt=11&amp;field=5&amp;key=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7255">
+              <span>Order shRNA clones</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.genecopoeia.com/product/search/result.php?prt=22&amp;field=5&amp;key=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7255">
+              <span>Order promoter clone</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.genecopoeia.com/product/search/result.php?prt=26&amp;field=5&amp;key=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7255">
+              <span>Order TALEN/CRISPR clones</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>GeneTex Inc</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.genetex.com/Product/Search?geneid=3017&amp;type=01&amp;page=1" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8117">
+              <span>Find Quality Antibodies</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.genetex.com/Product/Search?geneid=3017&amp;type=03&amp;page=1" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8117">
+              <span>Find Recombinant Proteins and Peptides</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>Kazusa DNA Research Institute</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.kazusa.or.jp/kop/dsearch/symsearch.cgi?keyword=HIST1H2BD;" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=3267">
+              <span>Kazusa DNA Research Institute</span>
+            </a>
+          </li>
+        </ul>
+        <li>LifeSpan BioSciences, Inc.</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.lsbio.com/targets/hist1h2bd/g49444?prefix=r#SearchTable_div" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8607">
+              <span>LSBio HIST1H2BD Proteins</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>NITE Biological Resource Center</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.nbrc.nite.go.jp/cgi-bin/hflcdna/Keyword_Search.cgi?textarea2=AK292712" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=6869">
+              <span>Human cDNA clones used in NEDO Project / AK292712</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="order-rsc"></span>Sino Biological Inc.</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.sinobiological.com/HIST1H2BD-cDNA-Clone-g-16881.html" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=8680">
+              <span>Human HIST1H2BD Gene cDNA Clone (full-length ORF Clone)</span>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <div class="linkout">
+      <a class="jig-ncbitoggler-open main">
+        <span>Tools</span>
+      </a>
+      <ul>
+        <li><span class="free-rsc"></span>GeneMANIA</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://genemania.org/link?o=9606&amp;g=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7529">
+              <span>GeneMANIA</span>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <div class="linkout">
+      <a class="jig-ncbitoggler-open">
+        <span>Miscellaneous</span>
+      </a>
+      <ul>
+        <li><span class="free-rsc"></span>InterologFinder.org</li>
+        <ul>
+          <li>
+            <a target="_blank" href="http://www.interologfinder.org/simpleIfWS?taxid=9606&amp;genes=3017" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7951">
+              <span>InterologFinder</span>
+            </a>
+          </li>
+        </ul>
+        <li>OriGene</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.origene.com/search?q=HIST1H2BC" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7994">
+              <span>Order HIST1H2BC cDNA clone/Protein/Antibody/RNAi</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.origene.com/search?q=HIST1H2BE" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7994">
+              <span>Order HIST1H2BE cDNA clone/Protein/Antibody/RNAi</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.origene.com/search?q=HIST1H2BG" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=7994">
+              <span>Order HIST1H2BG cDNA clone/Protein/Antibody/RNAi</span>
+            </a>
+          </li>
+        </ul>
+        <li><span class="free-rsc"></span>Reactome</li>
+        <ul>
+          <li>
+            <a target="_blank" href="https://reactome.org/PathwayBrowser/#/R-HSA-1266738" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4914">
+              <span>Reactome Event:Developmental Biology</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://reactome.org/PathwayBrowser/#/R-HSA-74160" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4914">
+              <span>Reactome Event:Gene expression (Transcription)</span>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://reactome.org/PathwayBrowser/#/R-HSA-1643685" ref="itool=Gene_FullReport&amp;uid=3017&amp;nlmid=&amp;db=gene&amp;log$=linkoutlink&amp;PrId=4914">
+              <span>Reactome Event:Disease</span>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+</div>
+
+        <div id="urls-in-genombrowser" style="display:none">
+            
+        </div>
+    </div>
+</div>
+
+        <div><input type="hidden" class="section_status_input" name="status_checked" id="status_checked" value="" /><input type="hidden" class="section_status_input" name="status_open" id="status_open" value="summary,region,context,bibliography,phenotypes,variation,hiv,interactions,pathways,geneInfo,proteinInfo,refSeq,related,links" /><input type="hidden" class="section_status_input" name="status_exist" id="status_exist" value="summary,context,region,expression,bibliography,phenotypes,hiv,interactions,geneInfo,proteinInfo,refSeq,related,links" /><input type="hidden" class="section_status_input" name="status_closed" id="status_closed" value="" /><meta name="status_checked" content="" class="meta_section_status" /><meta name="status_open" content="summary,region,context,bibliography,phenotypes,variation,hiv,interactions,pathways,geneInfo,proteinInfo,refSeq,related,links" class="meta_section_status" /><meta name="status_exist" content="summary,context,region,expression,bibliography,phenotypes,hiv,interactions,geneInfo,proteinInfo,refSeq,related,links" class="meta_section_status" /><meta name="status_closed" content="" class="meta_section_status" /><script type="text/javascript">
+            
+                var section_status_meta = {
+                'status_checked': '',
+                'status_open': 'summary,region,context,bibliography,phenotypes,variation,hiv,interactions,pathways,geneInfo,proteinInfo,refSeq,related,links',
+                'status_exist': 'summary,context,region,expression,bibliography,phenotypes,hiv,interactions,geneInfo,proteinInfo,refSeq,related,links',
+                'status_closed': ''                
+                };
+                
+                
+                /*
+                for (var o in section_status_meta) {
+                    var meta=document.createElement('meta');                    
+                    meta.name = o;
+                    meta.content = section_status_meta[o];
+                    var attr = document.createAttribute('data-ignore-limit');
+                    attr.value = 'true';
+                    meta.setAttributeNode(attr);
+                    document.getElementsByTagName('head')[0].appendChild(meta);
+                }
+                */
+                                    
+
+                var __ncbi_sg_pingCallbacks_render_gene = function (data, evtObj, type) {
+                    // data looks like {jsevent: "click", "link_id": "foo", ...}
+                    // evtObj is the JS event object
+                    // type is either "stat" (for applog) or "ga"
+                    var extraData = {};
+                    if (type == "stat") {
+                        for (var o in section_status_meta) {
+                            extraData[o] = section_status_meta[o];
+                        }
+
+                        return extraData;
+                       
+                    }
+                }
+                
+           
+            </script></div>
+
+    </div>
+</div>
+
+        <div id="messagearea_bottom">
+            
+        </div>
+        <div class=" bottom">
+            
+        </div>
+        
+    </div>
+</div>  
+<div class="supplemental col three_col last" id="sidebar_tabular">
+    <!-- sidebar close/hide button-->
+    <div class="ui-helper-clearfix">
+        <a href="#" id="sidecontent_2_pullout" style="float:right;" class="sidecontentpullout_local collapse_button"><span>Hide sidebar &gt;&gt;</span></a>
+    </div>  
+    <!-- end sidebar close/hide button-->
+    
+    <h2 class="offscreen_noflow">Supplemental Content</h2>
+      
+    <div id="gene-sidebar">
+	<div>
+	
+    
+    
+	
+	
+	
+	
+	
+</div>
+
+<!--	<component id="Gene_RVFullReport.Gene_RightColMenuLinks"/>-->
+	
+</div>
+</div>
+    
+    <div id="NCBIFooter_dynamic">
+    <!--<component id="NCBIBreadcrumbs"/>
+    <component id="NCBIHelpDesk"/>-->
+    <noscript><img alt="" src="/stat?jsdisabled=true&amp;ncbi_app=entrez&amp;ncbi_db=gene&amp;ncbi_pdid=full_report&amp;ncbi_phid=CE8875D4357AC47100000000043B017B" /></noscript>
+</div>
+
+    <div xmlns="http://www.w3.org/1999/xhtml" class="footer" id="footer" xml:base="http://127.0.0.1/sites/static/header_footer/">
+	<section class="icon-section">
+		<div id="icon-section-header" class="icon-section_header">Follow NCBI</div>
+		<div class="grid-container container">
+			<div class="icon-section_container">
+				<a class="footer-icon" id="footer_twitter" href="https://twitter.com/ncbi" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 300 300">
+					<defs>
+						<style>
+							.cls-11 {
+							fill: #737373;
+							}
+						</style>
+					</defs>
+					<title>Twitter</title>
+					<path class="cls-11" d="M250.11,105.48c-7,3.14-13,3.25-19.27.14,8.12-4.86,8.49-8.27,11.43-17.46a78.8,78.8,0,0,1-25,9.55,39.35,39.35,0,0,0-67,35.85,111.6,111.6,0,0,1-81-41.08A39.37,39.37,0,0,0,81.47,145a39.08,39.08,0,0,1-17.8-4.92c0,.17,0,.33,0,.5a39.32,39.32,0,0,0,31.53,38.54,39.26,39.26,0,0,1-17.75.68,39.37,39.37,0,0,0,36.72,27.3A79.07,79.07,0,0,1,56,223.34,111.31,111.31,0,0,0,116.22,241c72.3,0,111.83-59.9,111.83-111.84,0-1.71,0-3.4-.1-5.09C235.62,118.54,244.84,113.37,250.11,105.48Z">
+					</path>
+				</svg></a>
+				<a class="footer-icon" id="footer_facebook" href="https://www.facebook.com/ncbi.nlm" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 300 300">
+					<title>Facebook</title>
+					<path class="cls-11" d="M210.5,115.12H171.74V97.82c0-8.14,5.39-10,9.19-10h27.14V52l-39.32-.12c-35.66,0-42.42,26.68-42.42,43.77v19.48H99.09v36.32h27.24v109h45.41v-109h35Z">
+					</path>
+				</svg></a>
+				<a class="footer-icon" id="footer_linkedin" href="https://www.linkedin.com/company/ncbinlm" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 300 300">
+						<title>LinkedIn</title>
+						<path class="cls-11" d="M101.64,243.37H57.79v-114h43.85Zm-22-131.54h-.26c-13.25,0-21.82-10.36-21.82-21.76,0-11.65,8.84-21.15,22.33-21.15S101.7,78.72,102,90.38C102,101.77,93.4,111.83,79.63,111.83Zm100.93,52.61A17.54,17.54,0,0,0,163,182v61.39H119.18s.51-105.23,0-114H163v13a54.33,54.33,0,0,1,34.54-12.66c26,0,44.39,18.8,44.39,55.29v58.35H198.1V182A17.54,17.54,0,0,0,180.56,164.44Z">
+						</path>
+					</svg></a>
+				<a class="footer-icon" id="footer_github" href="https://github.com/ncbi" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 300 300">
+					<defs>
+						<style>
+							.cls-11,
+							.cls-12 {
+							fill: #737373;
+							}
+							
+							.cls-11 {
+							fill-rule: evenodd;
+							}
+						</style>
+					</defs>
+					<title>GitHub</title>
+					<path class="cls-11" d="M151.36,47.28a105.76,105.76,0,0,0-33.43,206.1c5.28,1,7.22-2.3,7.22-5.09,0-2.52-.09-10.85-.14-19.69-29.42,6.4-35.63-12.48-35.63-12.48-4.81-12.22-11.74-15.47-11.74-15.47-9.59-6.56.73-6.43.73-6.43,10.61.75,16.21,10.9,16.21,10.9,9.43,16.17,24.73,11.49,30.77,8.79,1-6.83,3.69-11.5,6.71-14.14C108.57,197.1,83.88,188,83.88,147.51a40.92,40.92,0,0,1,10.9-28.39c-1.1-2.66-4.72-13.42,1-28,0,0,8.88-2.84,29.09,10.84a100.26,100.26,0,0,1,53,0C198,88.3,206.9,91.14,206.9,91.14c5.76,14.56,2.14,25.32,1,28a40.87,40.87,0,0,1,10.89,28.39c0,40.62-24.74,49.56-48.29,52.18,3.79,3.28,7.17,9.71,7.17,19.58,0,14.15-.12,25.54-.12,29,0,2.82,1.9,6.11,7.26,5.07A105.76,105.76,0,0,0,151.36,47.28Z">
+					</path>
+					<path class="cls-12" d="M85.66,199.12c-.23.52-1.06.68-1.81.32s-1.2-1.06-.95-1.59,1.06-.69,1.82-.33,1.21,1.07.94,1.6Zm-1.3-1">
+					</path>
+					<path class="cls-12" d="M90,203.89c-.51.47-1.49.25-2.16-.49a1.61,1.61,0,0,1-.31-2.19c.52-.47,1.47-.25,2.17.49s.82,1.72.3,2.19Zm-1-1.08">
+					</path>
+					<path class="cls-12" d="M94.12,210c-.65.46-1.71,0-2.37-.91s-.64-2.07,0-2.52,1.7,0,2.36.89.65,2.08,0,2.54Zm0,0"></path>
+					<path class="cls-12" d="M99.83,215.87c-.58.64-1.82.47-2.72-.41s-1.18-2.06-.6-2.7,1.83-.46,2.74.41,1.2,2.07.58,2.7Zm0,0">
+					</path>
+					<path class="cls-12" d="M107.71,219.29c-.26.82-1.45,1.2-2.64.85s-2-1.34-1.74-2.17,1.44-1.23,2.65-.85,2,1.32,1.73,2.17Zm0,0">
+					</path>
+					<path class="cls-12" d="M116.36,219.92c0,.87-1,1.59-2.24,1.61s-2.29-.68-2.3-1.54,1-1.59,2.26-1.61,2.28.67,2.28,1.54Zm0,0">
+					</path>
+					<path class="cls-12" d="M124.42,218.55c.15.85-.73,1.72-2,1.95s-2.37-.3-2.52-1.14.73-1.75,2-2,2.37.29,2.53,1.16Zm0,0"></path>
+				</svg></a>
+				<a class="footer-icon" id="footer_blog" href="https://ncbiinsights.ncbi.nlm.nih.gov/" aria-label="Blog">
+					<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 40 40">
+						<defs><style>.cls-1{fill:#737373;}</style></defs>
+						<title>NCBI Insights Blog</title>
+						<path class="cls-1" d="M14,30a4,4,0,1,1-4-4,4,4,0,0,1,4,4Zm11,3A19,19,0,0,0,7.05,15a1,1,0,0,0-1,1v3a1,1,0,0,0,.93,1A14,14,0,0,1,20,33.07,1,1,0,0,0,21,34h3a1,1,0,0,0,1-1Zm9,0A28,28,0,0,0,7,6,1,1,0,0,0,6,7v3a1,1,0,0,0,1,1A23,23,0,0,1,29,33a1,1,0,0,0,1,1h3A1,1,0,0,0,34,33Z"></path>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="container-fluid bg-primary">
+		<div class="container pt-5">
+			<div class="row mt-3">
+				<div class="col-lg-3 col-12">
+					<p><a class="text-white" href="https://www.nlm.nih.gov/socialmedia/index.html">Connect with NLM</a></p>
+					<ul class="list-inline social_media">
+						<li class="list-inline-item"><a href="https://twitter.com/NLM_NIH" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 249 249" style="enable-background:new 0 0 249 249;" xml:space="preserve">
+                      <style type="text/css">
+                        .st20 {
+                          fill: #FFFFFF;
+                        }
+
+                        .st30 {
+                          fill: none;
+                          stroke: #FFFFFF;
+                          stroke-width: 8;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <title>Twitter</title>
+                      <g>
+                        <g>
+                          <g>
+                            <path class="st20" d="M192.9,88.1c-5,2.2-9.2,2.3-13.6,0.1c5.7-3.4,6-5.8,8.1-12.3c-5.4,3.2-11.4,5.5-17.6,6.7                                                 c-10.5-11.2-28.1-11.7-39.2-1.2c-7.2,6.8-10.2,16.9-8,26.5c-22.3-1.1-43.1-11.7-57.2-29C58,91.6,61.8,107.9,74,116                                                 c-4.4-0.1-8.7-1.3-12.6-3.4c0,0.1,0,0.2,0,0.4c0,13.2,9.3,24.6,22.3,27.2c-4.1,1.1-8.4,1.3-12.5,0.5c3.6,11.3,14,19,25.9,19.3                                                 c-11.6,9.1-26.4,13.2-41.1,11.5c12.7,8.1,27.4,12.5,42.5,12.5c51,0,78.9-42.2,78.9-78.9c0-1.2,0-2.4-0.1-3.6                                                 C182.7,97.4,189.2,93.7,192.9,88.1z"></path>
+                          </g>
+                        </g>
+                        <circle class="st30" cx="124.4" cy="128.8" r="108.2"></circle>
+                      </g>
+                    </svg></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/nationallibraryofmedicine" aria-label="Facebook" rel="noopener noreferrer" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 249 249" style="enable-background:new 0 0 249 249;" xml:space="preserve">
+                      <style type="text/css">
+                        .st10 {
+                          fill: #FFFFFF;
+                        }
+
+                        .st110 {
+                          fill: none;
+                          stroke: #FFFFFF;
+                          stroke-width: 8;
+                          stroke-miterlimit: 10;
+                        }
+                      </style>
+                      <title>Facebook</title>
+                      <g>
+                        <g>
+                          <path class="st10" d="M159,99.1h-24V88.4c0-5,3.3-6.2,5.7-6.2h16.8V60l-24.4-0.1c-22.1,0-26.2,16.5-26.2,27.1v12.1H90v22.5h16.9                                                       v67.5H135v-67.5h21.7L159,99.1z"></path>
+                        </g>
+                      </g>
+                      <circle class="st110" cx="123.6" cy="123.2" r="108.2"></circle>
+                    </svg>
+						</a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/user/NLMNIH" aria-label="Youtube" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 249 249" style="enable-background:new 0 0 249 249;" xml:space="preserve">
+                      <title>Youtube</title>
+                      <style type="text/css">
+                        .st4 {
+                          fill: none;
+                          stroke: #FFFFFF;
+                          stroke-width: 8;
+                          stroke-miterlimit: 10;
+                        }
+
+                        .st5 {
+                          fill: #FFFFFF;
+                        }
+                      </style>
+                      <circle class="st4" cx="124.2" cy="123.4" r="108.2"></circle>
+                      <g transform="translate(0,-952.36218)">
+                        <path class="st5" d="M88.4,1037.4c-10.4,0-18.7,8.3-18.7,18.7v40.1c0,10.4,8.3,18.7,18.7,18.7h72.1c10.4,0,18.7-8.3,18.7-18.7                                             v-40.1c0-10.4-8.3-18.7-18.7-18.7H88.4z M115.2,1058.8l29.4,17.4l-29.4,17.4V1058.8z"></path>
+                      </g>
+                    </svg></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-12">
+					<p class="address_footer text-white">National Library of Medicine<br />
+						<a href="https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323" class="text-white" target="_blank" rel="noopener noreferrer">8600 Rockville Pike<br />
+							Bethesda, MD 20894</a></p>
+				</div>
+				<div class="col-lg-3 col-12 centered-lg">
+					<p><a href="https://www.nlm.nih.gov/web_policies.html" class="text-white">Web Policies</a><br />
+						<a href="https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office" class="text-white">FOIA</a><br />
+						<a href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" class="text-white" id="vdp">HHS Vulnerability Disclosure</a></p>
+				</div>
+				<div class="col-lg-3 col-12 centered-lg">
+					<p><a class="supportLink text-white" href="https://support.nlm.nih.gov/">Help</a><br />
+						<a href="https://www.nlm.nih.gov/accessibility.html" class="text-white">Accessibility</a><br />
+						<a href="https://www.nlm.nih.gov/careers/careers.html" class="text-white">Careers</a></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 centered-lg">
+					<nav class="bottom-links">
+						<ul class="mt-3">
+							<li>
+								<a class="text-white" href="//www.nlm.nih.gov/">NLM</a>
+							</li>
+							<li>
+								<a class="text-white" href="https://www.nih.gov/">NIH</a>
+							</li>
+							<li>
+								<a class="text-white" href="https://www.hhs.gov/">HHS</a>
+							</li>
+							<li>
+								<a class="text-white" href="https://www.usa.gov/">USA.gov</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentOmnitureBaseJS/InstrumentNCBIConfigJS/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js?v=1"> </script>    
+	<script type="text/javascript" src="/portal/portal3rc.fcgi/static/js/hfjs2.js"> </script>
+</div>
+
+</div>
+					<div><input name="EntrezSystem2.PEntrez.DbConnector.Db" sid="1" type="hidden" value="gene" /><input name="EntrezSystem2.PEntrez.DbConnector.LastDb" sid="1" type="hidden" value="gene" /><input name="EntrezSystem2.PEntrez.DbConnector.Term" sid="1" type="hidden" value="AJ223353" /><input name="EntrezSystem2.PEntrez.DbConnector.LastTabCmd" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.DbConnector.LastQueryKey" sid="1" type="hidden" value="1" /><input name="EntrezSystem2.PEntrez.DbConnector.IdsFromResult" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.DbConnector.LastIdsFromResult" sid="1" type="hidden" value="" /><input name="EntrezSystem2.PEntrez.DbConnector.LinkName" sid="1" type="hidden" /><input name="EntrezSystem2.PEntrez.DbConnector.LinkReadableName" sid="1" type="hidden" /><input name="EntrezSystem2.PEntrez.DbConnector.LinkSrcDb" sid="1" type="hidden" /><input name="EntrezSystem2.PEntrez.DbConnector.Cmd" sid="1" type="hidden" /><input name="EntrezSystem2.PEntrez.DbConnector.TabCmd" sid="1" type="hidden" /><input name="EntrezSystem2.PEntrez.DbConnector.QueryKey" sid="1" type="hidden" /></div>
+				<input type="hidden" name="p$a" id="p$a" /><input type="hidden" name="p$l" id="p$l" value="EntrezSystem2" /><input type="hidden" name="p$st" id="p$st" value="gene" /><input name="SessionId" id="SessionId" value="CE8875D4357BF431_1083SID" disabled="disabled" type="hidden" /><input name="Snapshot" id="Snapshot" value="/projects/Gene/Gene@4.5" disabled="disabled" type="hidden" /></form>
+			</div>
+		</div>
+    
+
+<!-- CE8875D4357BF431_1083SID /projects/Gene/Gene@4.5 portal101 v4.1.r643667 Fri, Jan 14 2022 01:18:35 -->
+<span id="portal-csrf-token" style="display:none" data-token="CE8875D4357BF431_1083SID"></span>
+
+
+<script type='text/javascript' src='/portal/js/portal.js'></script><script type="text/javascript" src="//static.pubmed.gov/portal/portal3rc.fcgi/4210901/js/4159018/4159791/3812534/4087685/3812535/3781604/4080513/4199696/4186313/4149125/3879255/4121861/4179604/4175954/3758627/1778515/3812291/3908752/4177354/4180241/4201890/4201900/6358/4113715/4114118/4175237/4160390/4153707/1689922/3816816/3887815/3887817/3317080/4188659/4001808.js" snapshot="gene"></script></body>
+</html>

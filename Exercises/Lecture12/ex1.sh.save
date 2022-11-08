@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+dna=open('input.txt').read()
+clean=dna.replace('','')
+outfile=open('clean_dna.txt','w')
+outfile.write(clean)
+outfile.close()
+for le in open('clean_dna.txt').read():
+	f'the length of first DNA is len({le})'
+ 
