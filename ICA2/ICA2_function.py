@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 import os
+import pandas as pd
 # user input protein name and taxinomic group ID
 def pro_tx_seq():
     while True: # a loop till correct input
@@ -16,15 +17,25 @@ def pro_tx_seq():
                 print("invalid taxonomy ID, try again.\n")
                 continue  # input again
             print("searching proteins sequences from ncbi...") # start program
+            #partial or not partial search
+            par=input("would you like to contain partial proteins or not? yes/no:\n")
+            par=par.replace(' ','').lower()
+            if par=="no":
+                print("no partial searching...\n")
+                ecount='esearch -db protein -query "('+protein+')[Protein Name] AND '+taxonomy+'[Organism] NOT PARTIAL" | grep "Count" > count.txt'
+                par_query='NOT PARTIAL'
+            else:
+                print("full searching...\n")
+                ecount='esearch -db protein -query "('+protein+')[Protein Name] AND '+taxonomy+'[Organism]" | grep "Count" > count.txt'
+                os.system(ecount)
+                par_query=''
             # count the number of sequences searched from NCBI
-            ecount='esearch -db protein -query "('+protein+')[Protein Name] AND '+taxonomy+'[Organism]" | grep "Count" > count.txt'
-            os.system(ecount)
             count=open("count.txt").read()
             count=int(count.replace('<Count>','').replace('</Count>\n','').strip()) 
             if count>1000: # too many sequences, ask user download or not
-                print("So many sequences("+str(count)+")! Continue downloading? yes/no:\n")
+                print("Too many sequences("+str(count)+")!  Continue downloading? yes/no:\n")
                 test=input()
-                if test=='no':
+                if test.lower().replace(' ', '')=='no':
                     print("Bye!\n")
                     quit()
             if count==0: # check if the retrieve result is 0
@@ -33,11 +44,11 @@ def pro_tx_seq():
             else:
                 print(str(count)+" sequences downloading...\n")
             #download sequences
-            fastafetch='esearch -db protein -query "('+protein+')[Protein Name] AND '+taxonomy+'[Organism]" | efetch -format fasta > '+taxonomy+'.fa'
+            fastafetch='esearch -db protein -query "('+protein+')[Protein Name] AND '+taxonomy+'[Organism]'+par_query+'" | efetch -format fasta > '+taxonomy+'.fa'
             os.system(fastafetch) 
-            print("protein sequences inside "+taxonomy+".fa file")
+            print("protein sequences is inside file: "+taxonomy+".fa")
             os.system("grep '>' "+taxonomy+".fa > "+taxonomy+"_title") # create a file containing headers of all sequences
-            print("protein headers inside "+taxonomy+"_title file")
+            print("protein headers is inside file: "+taxonomy+"_title")
             break
         else:
             print("invalid taxonomy ID, try again.\n") # invalid, continue retyping loop
@@ -48,68 +59,47 @@ def pro_tx_seq():
 def species(taxonomy):
     fas=open(taxonomy+"_title").read()
     fas=fas.rstrip().replace(taxonomy+".fa:>",'').split('\n')
-    i=0
     dic={} # create dictionary { accession : species }
     for pro in fas:
-        key=pro.split(' ')[0].replace(">",'')
-        value=pro.split('[')[-1].replace("]",'')
-        dic[key]=value
-        i+=1
+        if pro.find("["): # 
+            key=pro.split('\t')[0].replace(">",'')
+            value=pro.split('[')[-1].replace("]",'')
+            dic[key]=value
     # count the number of proteins and species
     protein_numbers=len(dic.values())
     species_numbers=len(set(dic.values()))
+    percent=round(protein_numbers/species_numbers,2)
     print("It contains "+str(protein_numbers)+" sequences and "+str(species_numbers)+" kinds of species.")
+    print("About "+str(percent)+" proteins per species.\n")
     # write result to file
-    with open(taxonomy+'pro_spe.txt','w') as output:
-        output.write('protein\tspecies')
+    with open(taxonomy+'proteins_species.txt','w') as output:
+        output.write('protein\tspecies\n')
         for key,value in dic.items():
             output.write('%s\t%s\n' % (key, value))
-    print("output")
+    print("output proteins and corresponding species file: "+taxonomy+'proteins_species.txt')
     return dic
 
-# count sequence length and output fasta file for each sequence
-def seq_len_out(taxonomy):
+import os
+import pandas as pd
+import matplotlib.pyplot as plt
+# count sequence length
+def seq_len(taxonomy):
     fas=open(taxonomy+'.fa').read().strip()
     full_seq=fas.split('>')[1:] # delete first empty string
-    filename=[]
     seq=[]
+    raw_seq=[]
     pro=[]
     seqlen=[]
+    pro_number=[]
     for i in list(range(0,len(full_seq),1)): 
         # count sequence length for each sequence
-        devide=seq[i].find("\n")
-        pro[i]=full_seq[i][0:devide]
-        seq[i]=full_seq[i][(devide+1):].replace('\n','')
-        seqlen[i]=len(seq[i])
-        # output fasta file for each sequence
-        filename.append(full_seq[i].split(' ')[0])  # set sequence name as file name
-        full_fa[i]='>'+full_seq[i]   # add separator('>') back
-        with open(filename[i]+'.seq.fa',"w") as outfile:
-            outfile.write(full_fa[i]) # write in single sequence
-    import pandas as pd
+        devide=full_seq[i].find("\n") # first index of '\n' to divide header and sequence
+        pro.append(full_seq[i][0:devide])
+        pro_number.append(full_seq[i].split(' ')[0])
+        raw_seq.append(full_seq[i][(devide+1):])
+        seq.append(full_seq[i][(devide+1):].replace('\n',''))
+        seqlen.append(len(seq[i]))
     df={} # data frame contain the protein name, sequence, sequence length
-    df["protein"]=pro
-    df['sequence']=seq
-    df['length']=seqlen 
-    return df   
-
-
-# determine, and plot, the level of protein sequence conservation
-def conservation(dataset):
-    protein=dataset[0]
-    taxonomy=dataset[1]
-    # protein sequence alignment
-    os.system('clustalo -i '+taxonomy+'.fa -o '+taxonomy+'.align.msf --outfmt=msf --threads=100')
-    # basic information about sequences in an input multiple sequence alignment
-    os.system('infoalign '+taxonomy+'.align.msf -out '+taxonomy+'.infoalign')
-    # sort by %Change from low to high, indecating conservation from high to low
-    os.system('sort -k10 '+taxonomy+'.infoalign >'+taxonomy+'.infoalign_sort')
-    # determine the level of conservation and display on the screen
-    os.system('cat '+taxonomy+'.infoalign_sort')
-    # plot the the level of conservation
-    plot="plotcon -sformat msf "+taxonomy+".align.msf -winsize 20 -gsubtitle '"+protein+" sequences in "+taxonomy+"' -graph ps -goutfile "+taxonomy
-    os.system(plot)
-    # display the plot
-    display="plotcon -sformat msf txid4890.align.msf -winsize 25 -gsubtitle '"+protein+" sequences in "+taxonomy+"' -graph xterm"
-    os.system(display)
-
+    df=pd.DataFrame({"protein":pro,"sequence":seq,"length":seqlen,'raw_seq':raw_seq,'pro_number':pro_number})
+    df=df.sort_values('length',ascending=False) # sort by length
+    return df
